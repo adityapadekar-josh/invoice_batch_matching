@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from datetime import datetime
 from decimal import Decimal
 from pathlib import Path
@@ -12,6 +13,24 @@ import prompts
 load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+
+class TeeToFile:
+    def __init__(self, file_path):
+        self.terminal = sys.stdout
+        self.log_file = open(file_path, "w", encoding="utf-8")
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log_file.write(message)
+        self.flush()
+
+    def flush(self):
+        self.terminal.flush()
+        self.log_file.flush()
+
+    def close(self):
+        self.log_file.close()
 
 
 def get_db_connection():
@@ -36,20 +55,20 @@ def save_json(data: dict | list, folder: Path, filename: str):
     filepath = folder / filename
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"✓ Saved: {filepath}")
+    print(f"✓ Saved file: {filepath}")
 
 
 def print_section_header(title: str):
     """Print a formatted section header."""
-    print(f"\n{'='*60}")
+    print(f"\n{'=' * 60}")
     print(f" {title}")
-    print(f"{'='*60}\n")
+    print(f"{'=' * 60}\n")
 
 
 def extract_invoice_data(invoice_url: str, run_folder: Path) -> dict:
-    print_section_header("STEP 1: EXTRACTING INVOICE DATA")
+    print_section_header("STEP 1: INVOICE DATA EXTRACTION")
     print(f"Invoice URL: {invoice_url}")
-    print("Calling OpenAI API for invoice extraction...")
+    print("Invoking OpenAI API for invoice extraction...")
     start_time = datetime.now()
 
     response = client.responses.create(
@@ -70,22 +89,25 @@ def extract_invoice_data(invoice_url: str, run_folder: Path) -> dict:
 
     end_time = datetime.now()
     duration = (end_time - start_time).total_seconds()
-    print(f"Duration for EXTRACTING INVOICE DATA: {duration:.2f} seconds")
+    print(f"Extraction completed in {duration:.2f} seconds")
 
     invoice_data = json.loads(response.output_text)
     save_json(invoice_data, run_folder, "1_extracted_invoice.json")
 
-    print(f"\nInvoice extraction completed:")
+    print("\nInvoice extraction summary:")
+    print(f"  - Invoice number: {invoice_data.get('invoice_number', 'N/A')}")
+    print(f"  - Line items extracted: {len(invoice_data.get('line_items', []))}")
+
     return invoice_data
 
 
 def reconcile_batch_with_invoice(
     batch_items: list, invoice: dict, run_folder: Path
 ) -> list:
-    print_section_header("STEP 3: RECONCILING BATCH WITH INVOICE")
+    print_section_header("STEP 3: BATCH–INVOICE RECONCILIATION")
     print(f"Batch items count: {len(batch_items)}")
     print(f"Invoice items count: {len(invoice.get('line_items', []))}")
-    print("Calling OpenAI API for reconciliation...")
+    print("Invoking OpenAI API for reconciliation...")
 
     serializable_batch_items = []
 
@@ -123,17 +145,16 @@ def reconcile_batch_with_invoice(
 
     end_time = datetime.now()
     duration = (end_time - start_time).total_seconds()
-    print(f"Duration for RECONCILING BATCH WITH INVOICE: {duration:.2f} seconds")
+    print(f"Reconciliation completed in {duration:.2f} seconds")
 
     match_results = json.loads(response.output_text)
     save_json(match_results, run_folder, "3_reconciliation_results.json")
 
-    # Print summary
     matched_count = sum(1 for item in match_results if item.get("matched", False))
-    print(f"\nReconciliation completed:")
-    print(f"  - Total matches processed: {len(match_results)}")
+    print("\nReconciliation summary:")
+    print(f"  - Total records processed: {len(match_results)}")
     print(f"  - Successfully matched: {matched_count}")
-    print(f"  - Unmatched/Discrepancies: {len(match_results) - matched_count}")
+    print(f"  - Unmatched or discrepant: {len(match_results) - matched_count}")
 
     return match_results
 
@@ -141,7 +162,7 @@ def reconcile_batch_with_invoice(
 def fetch_batch_items(batch_id: int, run_folder: Path) -> list:
     print_section_header("STEP 2: FETCHING BATCH ITEMS FROM DATABASE")
     print(f"Batch ID: {batch_id}")
-    print("Querying database...")
+    print("Executing database query...")
 
     conn = get_db_connection()
     try:
@@ -149,10 +170,6 @@ def fetch_batch_items(batch_id: int, run_folder: Path) -> list:
             query = """
                 SELECT 
                     id,
-                    order_id,
-                    order_item_id,
-                    batch_id,
-                    product_id,
                     product_name,
                     order_item_quantity,
                     product_quantity,
@@ -165,8 +182,8 @@ def fetch_batch_items(batch_id: int, run_folder: Path) -> list:
             batch_items = [dict(row) for row in results]
             save_json(batch_items, run_folder, "2_fetched_batch_items.json")
 
-            print(f"\nDatabase query completed:")
-            print(f"  - Records found: {len(batch_items)}")
+            print("\nDatabase query summary:")
+            print(f"  - Records retrieved: {len(batch_items)}")
 
             return batch_items
     finally:
@@ -175,32 +192,32 @@ def fetch_batch_items(batch_id: int, run_folder: Path) -> list:
 
 def process_batch_invoice(batch_id: int, invoice_url: str):
     start_time = datetime.now()
+    tee = None
 
     try:
+        run_folder = create_run_folder()
+        print(f"✓ Run folder created: {run_folder}")
+
+        log_file_path = run_folder / "process.log"
+        tee = TeeToFile(log_file_path)
+        sys.stdout = tee
+
         print_section_header("BATCH INVOICE RECONCILIATION PROCESS")
-        print(f"Started at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"Process started at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
         print(f"Batch ID: {batch_id}")
         print(f"Invoice URL: {invoice_url}")
 
-        run_folder = create_run_folder()
-        print(f"\n✓ Created run folder: {run_folder}")
-
-        # Step 1: Extract invoice data
         invoice_data = extract_invoice_data(invoice_url, run_folder)
-
-        # Step 2: Fetch batch items from database
         batch_items = fetch_batch_items(batch_id, run_folder)
 
         if not batch_items:
-            print(f"\n⚠ WARNING: No records found for batch_id: {batch_id}")
+            print(f"\n⚠ WARNING: No records found for batch ID {batch_id}")
             return
 
-        # Step 3: Reconcile batch with invoice
         match_results = reconcile_batch_with_invoice(
             batch_items, invoice_data, run_folder
         )
 
-        # Save processing metadata
         end_time = datetime.now()
         duration = (end_time - start_time).total_seconds()
 
@@ -218,23 +235,23 @@ def process_batch_invoice(batch_id: int, invoice_url: str):
         save_json(metadata, run_folder, "0_metadata.json")
 
         print_section_header("PROCESS COMPLETED SUCCESSFULLY")
-        print(f"Duration: {duration:.2f} seconds")
-        print(f"All files saved to: {run_folder}")
-        print(f"\nFiles created:")
-        print(f"  - 0_metadata.json")
-        print(f"  - 1_extracted_invoice.json")
-        print(f"  - 2_fetched_batch_items.json")
-        print(f"  - 3_reconciliation_results.json")
+        print(f"Total duration: {duration:.2f} seconds")
+        print(f"Output directory: {run_folder}")
+        print("\nFiles generated:")
+        print("  - 0_metadata.json")
+        print("  - 1_extracted_invoice.json")
+        print("  - 2_fetched_batch_items.json")
+        print("  - 3_reconciliation_results.json")
+        print("  - process.log")
 
     except Exception as exc:
         end_time = datetime.now()
         duration = (end_time - start_time).total_seconds()
 
-        print_section_header("ERROR OCCURRED")
-        print(f"Error: {str(exc)}")
-        print(f"Duration before error: {duration:.2f} seconds")
+        print_section_header("PROCESS FAILED")
+        print(f"Error message: {str(exc)}")
+        print(f"Elapsed time before failure: {duration:.2f} seconds")
 
-        # Try to save error metadata
         try:
             error_metadata = {
                 "batch_id": batch_id,
@@ -252,6 +269,11 @@ def process_batch_invoice(batch_id: int, invoice_url: str):
 
         raise
 
+    finally:
+        if tee:
+            sys.stdout = tee.terminal
+            tee.close()
+
 
 if __name__ == "__main__":
     BATCH_ID = 1703
@@ -260,3 +282,48 @@ if __name__ == "__main__":
     )
 
     process_batch_invoice(BATCH_ID, INVOICE_URL)
+
+"""
+Invoice-to-KindKart Item Matching – Test logs
+
+Test 1: 20260204_141540
+Batch Id: 1601
+Invoice url: https://assets.thekindkart.org/invoice/195/invoice_20250319_151230.pdf
+Run completed in 113.19 seconds
+
+Test 2: 20260204_141928
+Batch Id: 1703
+Invoice url: https://assets.thekindkart.org/invoice/251/invoice_20250411_174741.pdf
+Run completed in 178.96 seconds
+
+Test 3: 20260204_142340
+Batch Id: 978
+Invoice url: https://assets.thekindkart.org/invoice/754/invoice_20250616_122802.pdf
+Run completed in 78.98 seconds
+
+Test 4: 20260204_142625
+Batch Id: 1990
+Invoice url: https://assets.thekindkart.org/invoice/770/invoice_20250616_183939.pdf
+Run completed in 139.16 seconds
+
+Test 5: 20260204_143135
+Batch Id: 1982
+Invoice url: https://assets.thekindkart.org/invoice/768/invoice_20250616_183255.pdf
+Run completed in 106.37 seconds
+
+Test 6: 20260204_143500
+Batch Id: 134
+Invoice url: https://assets.thekindkart.org/invoice/134/invoice_20250226_105752.pdf
+Run completed in 84.45 seconds
+
+Test 7: 20260204_143719
+Batch Id: 2642
+Invoice url: https://assets.thekindkart.org/invoice/1764/invoice_20251029_114646.pdf
+Run completed in 78.30 seconds
+
+Test 8: 20260204_144001
+Batch Id: 2470
+Invoice url: https://assets.thekindkart.org/invoice/1591/invoice_20250919_183642.pdf
+Run completed in 116.61 seconds
+
+"""
