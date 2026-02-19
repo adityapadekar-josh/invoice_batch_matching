@@ -1,0 +1,562 @@
+[
+  {
+    "batch_item": {
+      "id": 3211,
+      "product_name": "Sabena",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Sabena 450g",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 28.244444444444447,
+      "total_price": 127.1
+    },
+    "actual_cost": 141.22222222222223,
+    "match_status": "matched",
+    "confidence_score": 70,
+    "confidence_summary": "Core product match | Units matched after normalization (pcs+packaging→kg) | Poor quantity match (>20% diff): expected 5 kg vs vendor 4.5 kg | Extracted 450g per pcs from invoice name | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3212,
+      "product_name": "Detergent Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Nima Washing Powder 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 60,
+      "total_price": 300
+    },
+    "actual_cost": 300,
+    "match_status": "matched",
+    "confidence_score": 75,
+    "confidence_summary": "Core product match (washing powder~detergent powder) | Units matched after normalization (pcs+packaging→kg) | Poor quantity match (>20% diff): expected 5 kg vs vendor 5 kg (exact) | Extracted 1kg per pcs from invoice name | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3243,
+      "product_name": "Detergent Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "produt_name": "Wheel Soap 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 169.4
+    },
+    "actual_cost": 169.4,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match | Units match (count→pcs) | Exact match (≤1% diff): expected 20 pcs vs vendor 20 pcs | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3242,
+      "product_name": "Vim Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "produt_name": "Exo Bar 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 169.4
+    },
+    "actual_cost": 169.4,
+    "match_status": "matched",
+    "confidence_score": 82,
+    "confidence_summary": "Fuzzy/core match (dishwash bar category; vim~exo) | Units match (count→pcs) | Exact match (≤1% diff): expected 20 pcs vs vendor 20 pcs | Potential brand substitution | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3559,
+      "product_name": "Pure Desi Ghee",
+      "order_item_quantity": 1,
+      "product_quantity": 500,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "produt_name": "Milky Mist Ghee 1ltr",
+      "quantity": 1,
+      "unit": "ltr",
+      "rate": 650.89,
+      "total_price": 650.89
+    },
+    "actual_cost": 325.445,
+    "match_status": "matched",
+    "confidence_score": 90,
+    "confidence_summary": "Core product match (ghee) | Units matched after normalization (ml→ltr) | Poor quantity match (>20% diff): expected 0.5 ltr vs vendor 1 ltr | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3558,
+      "product_name": "Milk Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 500,
+      "product_unit": "gms"
+    },
+    "vendor_item": {
+      "produt_name": "Nova Milk Powder 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 360,
+      "total_price": 360
+    },
+    "actual_cost": 180,
+    "match_status": "matched",
+    "confidence_score": 90,
+    "confidence_summary": "Core product match | Units matched after normalization (g→kg) | Poor quantity match (>20% diff): expected 0.5 kg vs vendor 1 kg | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3590,
+      "product_name": "Coconut Oil",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "NO MATCH | Unit N/A | Quantity N/A | No coconut oil line item found in invoice | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3589,
+      "product_name": "Til Oil",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "NO MATCH | Unit N/A | Quantity N/A | No til/sesame oil line item found in invoice | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3588,
+      "product_name": "Coffee Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Mathas Coffee Gold 500g",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 742.86,
+      "total_price": 742.86
+    },
+    "actual_cost": 742.86,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match | Units matched after normalization (pcs+packaging→kg) | Exact match (≤1% diff): expected 1 kg vs vendor 1 kg | Extracted 500g per pcs from invoice name | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3587,
+      "product_name": "Tea Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Waghbakri Tea 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 244.76,
+      "total_price": 244.76
+    },
+    "actual_cost": 244.76,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Core product match | Units matched after normalization (pcs+packaging→kg) | Exact match (≤1% diff): expected 1 kg vs vendor 1 kg | Extracted 1kg per pcs from invoice name | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3586,
+      "product_name": "Shampoo ( SACHET )",
+      "order_item_quantity": 1,
+      "product_quantity": 200,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "produt_name": "Cinthi Plus Shampoo 1/-",
+      "quantity": 200,
+      "unit": "pcs",
+      "rate": 0.85,
+      "total_price": 170
+    },
+    "actual_cost": 170,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Core product match | Units match (count→pcs) | Exact match (≤1% diff): expected 200 pcs vs vendor 200 pcs | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3585,
+      "product_name": "Bathing Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "produt_name": "Vivel Cool Mint Soap 10/-",
+      "quantity": 10,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 84.7
+    },
+    "actual_cost": 84.7,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match | Units match (count→pcs) | Exact match (≤1% diff): expected 10 pcs vs vendor 10 pcs | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3584,
+      "product_name": "Tooth Paste/Colgate Paste",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "produt_name": "Closeup 1 Paste 17g",
+      "quantity": 10,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 84.7
+    },
+    "actual_cost": 84.7,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Core product match (toothpaste) | Units match (count→pcs) | Exact match (≤1% diff): expected 10 pcs vs vendor 10 pcs | Brand differs (Closeup vs Colgate) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3583,
+      "product_name": "Tooth Brush",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "NO MATCH | Unit N/A | Quantity N/A | No toothbrush line item found in invoice | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3639,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "produt_name": "Fortune Soya Oil 1ltr",
+      "quantity": 6,
+      "unit": "ltr",
+      "rate": 140,
+      "total_price": 840
+    },
+    "actual_cost": 1400,
+    "match_status": "matched",
+    "confidence_score": 65,
+    "confidence_summary": "Core product match (edible/cooking oil) | Units match (ltr) | Poor quantity match (>20% diff): expected 10 ltr vs vendor 6 ltr | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3638,
+      "product_name": "Pure Desi Ghee",
+      "order_item_quantity": 1,
+      "product_quantity": 500,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "produt_name": "Milky Mist Ghee 1ltr",
+      "quantity": 1,
+      "unit": "ltr",
+      "rate": 650.89,
+      "total_price": 650.89
+    },
+    "actual_cost": 325.445,
+    "match_status": "matched",
+    "confidence_score": 90,
+    "confidence_summary": "Core product match (ghee) | Units matched after normalization (ml→ltr) | Poor quantity match (>20% diff): expected 0.5 ltr vs vendor 1 ltr | Same invoice line reused across duplicate batch items | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3637,
+      "product_name": "Milk Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 500,
+      "product_unit": "gms"
+    },
+    "vendor_item": {
+      "produt_name": "Nova Milk Powder 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 360,
+      "total_price": 360
+    },
+    "actual_cost": 180,
+    "match_status": "matched",
+    "confidence_score": 90,
+    "confidence_summary": "Core product match | Units matched after normalization (g→kg) | Poor quantity match (>20% diff): expected 0.5 kg vs vendor 1 kg | Same invoice line reused across duplicate batch items | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3636,
+      "product_name": "Coconut Oil",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "NO MATCH | Unit N/A | Quantity N/A | No coconut oil line item found in invoice | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3635,
+      "product_name": "Til Oil",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "NO MATCH | Unit N/A | Quantity N/A | No til/sesame oil line item found in invoice | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3632,
+      "product_name": "Detergent Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "produt_name": "Wheel Soap 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 169.4
+    },
+    "actual_cost": 169.4,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match | Units match (count→pcs) | Exact match (≤1% diff): expected 20 pcs vs vendor 20 pcs | Same invoice line reused across duplicate batch items | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3633,
+      "product_name": "Tea Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Waghbakri Tea 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 244.76,
+      "total_price": 244.76
+    },
+    "actual_cost": 244.76,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Core product match | Units matched after normalization (pcs+packaging→kg) | Exact match (≤1% diff): expected 1 kg vs vendor 1 kg | Same invoice line reused across duplicate batch items | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3634,
+      "product_name": "Coffee Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Mathas Coffee Gold 500g",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 742.86,
+      "total_price": 742.86
+    },
+    "actual_cost": 742.86,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match | Units matched after normalization (pcs+packaging→kg) | Exact match (≤1% diff): expected 1 kg vs vendor 1 kg | Same invoice line reused across duplicate batch items | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3631,
+      "product_name": "Vim Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "produt_name": "Exo Bar 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 169.4
+    },
+    "actual_cost": 169.4,
+    "match_status": "matched",
+    "confidence_score": 82,
+    "confidence_summary": "Fuzzy/core match (dishwash bar category; vim~exo) | Units match (count→pcs) | Exact match (≤1% diff): expected 20 pcs vs vendor 20 pcs | Potential brand substitution; same invoice line reused across duplicate batch items | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3630,
+      "product_name": "Sugar",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Sugar 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 45,
+      "total_price": 450
+    },
+    "actual_cost": 450,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Exact/core product match | Units match (kg) | Exact match (≤1% diff): expected 10 kg vs vendor 10 kg | Ignored '5kg' in invoice name as redundant (unit already kg) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3629,
+      "product_name": "Jaggery",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Jaggery 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 65,
+      "total_price": 650
+    },
+    "actual_cost": 650,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match | Units match (kg) | Exact match (≤1% diff): expected 10 kg vs vendor 10 kg | Ignored '5kg' in invoice name as redundant (unit already kg) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3628,
+      "product_name": "Stone + Table Salt",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Arun Crystal Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 12,
+      "total_price": 60
+    },
+    "actual_cost": 60,
+    "match_status": "matched",
+    "confidence_score": 80,
+    "confidence_summary": "Core product match (stone/crystal salt) | Units match (kg) | Exact match (≤1% diff): expected 5 kg vs vendor 5 kg | Could also match table salt line (ambiguity: 2 possible matches) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 3627,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "produt_name": "Fortune Soya Oil 1ltr",
+      "quantity": 6,
+      "unit": "ltr",
+      "rate": 140,
+      "total_price": 840
+    },
+    "actual_cost": 1400,
+    "match_status": "matched",
+    "confidence_score": 65,
+    "confidence_summary": "Core product match (edible/cooking oil) | Units match (ltr) | Poor quantity match (>20% diff): expected 10 ltr vs vendor 6 ltr | Same invoice line reused across duplicate batch items | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 5447,
+      "product_name": "LPG Cylinder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "NO MATCH | Unit N/A | Quantity N/A | No LPG cylinder line item found in invoice | Clean invoice data"
+  }
+]

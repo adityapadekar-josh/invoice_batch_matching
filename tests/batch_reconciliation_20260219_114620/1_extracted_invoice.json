@@ -1,0 +1,255 @@
+{
+  "vendor_name": "GAYATHRI ASSOCIATES",
+  "invoice_number": "8507A326/26",
+  "invoice_date": "2025-09-18",
+  "due_date": null,
+  "line_items": [
+    {
+      "product_name": "Rin Bar 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 8.47,
+      "total_price": 169.4
+    },
+    {
+      "product_name": "Exo Bar 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 8.47,
+      "total_price": 169.4
+    },
+    {
+      "product_name": "Pepsodent Paste Germicheck 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 8.47,
+      "total_price": 169.4
+    },
+    {
+      "product_name": "Pepsodent Toothbrush Med+",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 16.95,
+      "total_price": 169.5
+    },
+    {
+      "product_name": "Vivel Soap 10/-",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 8.47,
+      "total_price": 84.7
+    },
+    {
+      "product_name": "IT Idli Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 240
+    },
+    {
+      "product_name": "IT White Soji 5 kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 240
+    },
+    {
+      "product_name": "IT Bansi Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 49,
+      "total_price": 245
+    },
+    {
+      "product_name": "IT Charoti Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 240
+    },
+    {
+      "product_name": "IT Ragi Flour 5kg",
+      "quantity": 20,
+      "unit": "kg",
+      "unit_price": 55,
+      "total_price": 1100
+    },
+    {
+      "product_name": "IT Maida 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 46,
+      "total_price": 230
+    },
+    {
+      "product_name": "IT Bassin 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 95,
+      "total_price": 475
+    },
+    {
+      "product_name": "IT Rice Flour 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 240
+    },
+    {
+      "product_name": "IT Thour Dhal 1kg",
+      "quantity": 12,
+      "unit": "kg",
+      "unit_price": 178,
+      "total_price": 2136
+    },
+    {
+      "product_name": "Bayar's Coffee 500g",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 314.29,
+      "total_price": 628.58
+    },
+    {
+      "product_name": "Waghbakri Tea 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 250,
+      "total_price": 250
+    },
+    {
+      "product_name": "CinZal Toilet Cleaner 500ml",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 81.36,
+      "total_price": 162.72
+    },
+    {
+      "product_name": "CinZal Toilet Cleaner 500ml",
+      "quantity": 5,
+      "unit": "pcs",
+      "unit_price": 93.22,
+      "total_price": 466.1
+    },
+    {
+      "product_name": "CinZal Herbal Phenyle 1ltr",
+      "quantity": 2,
+      "unit": "ltr",
+      "unit_price": 93.22,
+      "total_price": 186.44
+    },
+    {
+      "product_name": "CinZal Floor Cleaner 500ml",
+      "quantity": 5,
+      "unit": "pcs",
+      "unit_price": 43,
+      "total_price": 215
+    },
+    {
+      "product_name": "IT Jaggery 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 62,
+      "total_price": 620
+    },
+    {
+      "product_name": "IT Shakthi Table Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 14,
+      "total_price": 70
+    },
+    {
+      "product_name": "Arun Crystal Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 12,
+      "total_price": 60
+    },
+    {
+      "product_name": "IT Gram Dhal 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 105,
+      "total_price": 1050
+    },
+    {
+      "product_name": "IT Moong Dhal 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 130,
+      "total_price": 520
+    },
+    {
+      "product_name": "IT Masore Dhal 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 100,
+      "total_price": 400
+    },
+    {
+      "product_name": "IT Red Karaman 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 145,
+      "total_price": 580
+    },
+    {
+      "product_name": "IT Kabuli Channa 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 150,
+      "total_price": 600
+    },
+    {
+      "product_name": "IT White Karaman 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 125,
+      "total_price": 500
+    },
+    {
+      "product_name": "IT Urid Dhal 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 135,
+      "total_price": 540
+    },
+    {
+      "product_name": "IT Dosa Rice 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 40,
+      "total_price": 400
+    },
+    {
+      "product_name": "IT Idli Rice 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 480
+    },
+    {
+      "product_name": "IT Avalakki 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 55,
+      "total_price": 550
+    },
+    {
+      "product_name": "Isha Bullet Rice 26kg",
+      "quantity": 52,
+      "unit": "kg",
+      "unit_price": 52,
+      "total_price": 2704
+    }
+  ],
+  "subtotal": 16806.54,
+  "taxes": {
+    "cgst": 161.71,
+    "sgst": 161.71,
+    "igst": null
+  },
+  "total_amount": 17130,
+  "payment_terms": null,
+  "notes": "Round off: 0.04"
+}

@@ -46,7 +46,7 @@ def get_db_connection():
 def create_run_folder() -> Path:
     """Create a timestamped folder for this run."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    folder_path = Path(f"batch_reconciliation_{timestamp}")
+    folder_path = Path(f"tests/batch_reconciliation_{timestamp}")
     folder_path.mkdir(exist_ok=True)
     return folder_path
 
@@ -276,9 +276,9 @@ def process_batch_invoice(batch_id: int, invoice_url: str):
 
 
 if __name__ == "__main__":
-    BATCH_ID = 1703
+    BATCH_ID = 2470
     INVOICE_URL = (
-        "https://assets.thekindkart.org/invoice/251/invoice_20250411_174741.pdf"
+     "https://assets.thekindkart.org/invoice/1591/invoice_20250919_183642.pdf"
     )
 
     process_batch_invoice(BATCH_ID, INVOICE_URL)

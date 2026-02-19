@@ -1,0 +1,199 @@
+{
+  "vendor_name": "GAYATHRI ASSOCIATES",
+  "invoice_number": "9725GA25/26",
+  "invoice_date": "2025-10-15",
+  "due_date": null,
+  "line_items": [
+    {
+      "product_name": "IT Thour Dhal 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 150,
+      "total_price": 1500
+    },
+    {
+      "product_name": "IT Gram Dhal 1kg",
+      "quantity": 9,
+      "unit": "kg",
+      "unit_price": 110,
+      "total_price": 990
+    },
+    {
+      "product_name": "Clinic Plus Shampo 1/-",
+      "quantity": 400,
+      "unit": "pcs",
+      "unit_price": 0.85,
+      "total_price": 340
+    },
+    {
+      "product_name": "Ujala Fab Conditioner 900ml Bot",
+      "quantity": 1,
+      "unit": "pcs",
+      "unit_price": 199.15,
+      "total_price": 189.19
+    },
+    {
+      "product_name": "Arun Crystal Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 12,
+      "total_price": 60
+    },
+    {
+      "product_name": "I Shakthi Table Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 14,
+      "total_price": 70
+    },
+    {
+      "product_name": "IT Tamarind 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "unit_price": 175,
+      "total_price": 350
+    },
+    {
+      "product_name": "Swastik Puliogare Mix 500g",
+      "quantity": 1,
+      "unit": "pcs",
+      "unit_price": 209.52,
+      "total_price": 188.57
+    },
+    {
+      "product_name": "Germisol Black Phenyle 500ml",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 79.66,
+      "total_price": 1513.54
+    },
+    {
+      "product_name": "Morelight Det Powder 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 61.02,
+      "total_price": 591.89
+    },
+    {
+      "product_name": "Wagbhakri Tea 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "unit_price": 260,
+      "total_price": 520
+    },
+    {
+      "product_name": "Pepsodent Toothbrush Med F+",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 19.05,
+      "total_price": 361.95
+    },
+    {
+      "product_name": "Closeup Paste 17g 10/-",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 9.52,
+      "total_price": 90.44
+    },
+    {
+      "product_name": "IT Green Moong 1kg",
+      "quantity": 6,
+      "unit": "kg",
+      "unit_price": 110,
+      "total_price": 660
+    },
+    {
+      "product_name": "Jeera 100g",
+      "quantity": 8,
+      "unit": "pcs",
+      "unit_price": 40,
+      "total_price": 320
+    },
+    {
+      "product_name": "Stemless Chilly 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 380,
+      "total_price": 380
+    },
+    {
+      "product_name": "Rin Bar 10/-",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 9.52,
+      "total_price": 19.04
+    },
+    {
+      "product_name": "IT White Soji 5 Kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 480
+    },
+    {
+      "product_name": "Moreligh Det Liquid 1ltr",
+      "quantity": 4,
+      "unit": "pcs",
+      "unit_price": 83.9,
+      "total_price": 318.82
+    },
+    {
+      "product_name": "Bayar’s Coffee 500g",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 314.29,
+      "total_price": 609.72
+    },
+    {
+      "product_name": "Domex Toilet Cleaner 475ml",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 86.44,
+      "total_price": 167.69
+    },
+    {
+      "product_name": "Classic Turmeric Powder 500g",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 110,
+      "total_price": 220
+    },
+    {
+      "product_name": "MTR Vermicelli 850g",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 68,
+      "total_price": 136
+    },
+    {
+      "product_name": "Fortune Sun Lite Rf Sf Oil 1ltr",
+      "quantity": 10,
+      "unit": "ltr",
+      "unit_price": 145,
+      "total_price": 1450
+    },
+    {
+      "product_name": "Clinjal Toilet Cleaner 500ml",
+      "quantity": 4,
+      "unit": "pcs",
+      "unit_price": 81.36,
+      "total_price": 309.17
+    },
+    {
+      "product_name": "Clinjal Floor Cleaner 500ml",
+      "quantity": 1,
+      "unit": "pcs",
+      "unit_price": 93.22,
+      "total_price": 88.56
+    }
+  ],
+  "subtotal": 11924.58,
+  "taxes": {
+    "cgst": null,
+    "sgst": null,
+    "igst": 803.98
+  },
+  "total_amount": 12729,
+  "payment_terms": null,
+  "notes": "Round Off 0.44"
+}

@@ -1,0 +1,762 @@
+[
+  {
+    "batch_item": {
+      "id": 31944,
+      "product_name": "Toor Dal",
+      "order_item_quantity": 12,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Thour Dhal 1kg",
+      "quantity": 12,
+      "unit": "kg",
+      "rate": 178,
+      "total_price": 2136
+    },
+    "actual_cost": 178,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Fuzzy/synonym match (toor↔thour, dal↔dhal) | Units match after normalization (kg) | Exact quantity match | No special handling | Minor OCR/spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 31951,
+      "product_name": "Coffee Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Bayar's Coffee 500g",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 628.58,
+      "total_price": 628.58
+    },
+    "actual_cost": 628.58,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Core product match (coffee powder↔coffee) | Units match after normalization (pcs with 500g pack → kg) | Exact quantity match (expected 1 kg vs vendor 1 kg) | Packaging extracted from invoice name: 500g per pcs, qty 2 pcs → 1 kg | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31952,
+      "product_name": "Tea Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Waghbakri Tea 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 250,
+      "total_price": 250
+    },
+    "actual_cost": 250,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match (tea powder↔tea) | Units match after normalization (kg) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31981,
+      "product_name": "Puffed Rice",
+      "order_item_quantity": 1,
+      "product_quantity": 6,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No match | N/A | N/A | No corresponding invoice line for puffed rice/murmura | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31958,
+      "product_name": "Idly Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Idli Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 240
+    },
+    "actual_cost": 240,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Fuzzy/synonym match (idly/idli, rava↔soji/sooji) | Units match after normalization (kg) | Exact quantity match | No special handling | Minor spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 31959,
+      "product_name": "Suji/Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT White Soji 5 kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 240
+    },
+    "actual_cost": 240,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Core product match (suji/rava↔soji/sooji) | Units match after normalization (kg) | Exact quantity match | No special handling | Minor spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 31960,
+      "product_name": "Bansi Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Bansi Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 49,
+      "total_price": 245
+    },
+    "actual_cost": 245,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Exact/core match (bansi + rava/soji) | Units match after normalization (kg) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31961,
+      "product_name": "Chiroti Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Charoti Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 240
+    },
+    "actual_cost": 240,
+    "match_status": "matched",
+    "confidence_score": 94,
+    "confidence_summary": "Fuzzy match (chiroti↔charoti, rava↔soji) | Units match after normalization (kg) | Exact quantity match | No special handling | Minor OCR/spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 31962,
+      "product_name": "Sugar",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No match | N/A | N/A | No invoice line for sugar | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31963,
+      "product_name": "Jaggery",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Jaggery 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 62,
+      "total_price": 620
+    },
+    "actual_cost": 620,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Exact/core match (jaggery) | Units match after normalization (kg) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31965,
+      "product_name": "Rice",
+      "order_item_quantity": 2,
+      "product_quantity": 25,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "Isha Bullet Rice 26kg",
+      "quantity": 52,
+      "unit": "kg",
+      "rate": 52,
+      "total_price": 2704
+    },
+    "actual_cost": 1300,
+    "match_status": "matched",
+    "confidence_score": 76,
+    "confidence_summary": "Core product match (rice) | Units match after normalization (kg) | Close quantity match (expected 50 kg vs vendor 52 kg; 4% diff) | Likely different bag size (26kg) on invoice vs 25kg ordered | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31947,
+      "product_name": "Shampoo (Sachet)",
+      "order_item_quantity": 1,
+      "product_quantity": 200,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No match | N/A | N/A | No invoice line for shampoo sachet | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31954,
+      "product_name": "Dettol",
+      "order_item_quantity": 1,
+      "product_quantity": 500,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No match | N/A | N/A | No invoice line for Dettol | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31957,
+      "product_name": "Domex",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No match | N/A | N/A | No invoice line for Domex | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31945,
+      "product_name": "Detergent Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "produt_name": "Rin Bar 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 169.4
+    },
+    "actual_cost": 169.4,
+    "match_status": "matched",
+    "confidence_score": 90,
+    "confidence_summary": "Core product match (detergent soap↔rin bar) | Units match after normalization (no/nos→pcs) | Exact quantity match | Treated 'No' as pcs | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31946,
+      "product_name": "Vim Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "produt_name": "Exo Bar 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 169.4
+    },
+    "actual_cost": 169.4,
+    "match_status": "matched",
+    "confidence_score": 70,
+    "confidence_summary": "Fuzzy/category match (dishwash bar: vim↔exo) | Units match after normalization (no→pcs) | Exact quantity match | Brand differs; mapped to closest dishwash bar item | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31964,
+      "product_name": "Stone + Table Salt",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Shakthi Table Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 14,
+      "total_price": 70
+    },
+    "actual_cost": 70,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Partial/core match (table salt matched; stone/crystal salt component not clearly invoiced) | Units match after normalization (kg) | Exact quantity match | Selected table salt line; crystal/stone salt ambiguity remains (another salt line exists) | Ambiguity: 2 possible salt matches"
+  },
+  {
+    "batch_item": {
+      "id": 31948,
+      "product_name": "Bathing Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "produt_name": "Vivel Soap 10/-",
+      "quantity": 10,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 84.7
+    },
+    "actual_cost": 84.7,
+    "match_status": "matched",
+    "confidence_score": 92,
+    "confidence_summary": "Core product match (bathing soap↔soap) | Units match after normalization (no→pcs) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31949,
+      "product_name": "Colgate Tooth Paste",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "produt_name": "Pepsodent Paste Germicheck 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 169.4
+    },
+    "actual_cost": 84.7,
+    "match_status": "matched",
+    "confidence_score": 67,
+    "confidence_summary": "Core product match (toothpaste) but brand mismatch (colgate↔pepsodent) | Units match after normalization (no→pcs) | Poor quantity match (expected 10 pcs vs vendor 20 pcs; 100% diff) | Used closest toothpaste line; invoice qty likely covers more than ordered | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31950,
+      "product_name": "Tooth Brush",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "produt_name": "Pepsodent Toothbrush Med+",
+      "quantity": 10,
+      "unit": "pcs",
+      "rate": 16.95,
+      "total_price": 169.5
+    },
+    "actual_cost": 169.5,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Core product match (tooth brush↔toothbrush) | Units match after normalization (no→pcs) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31953,
+      "product_name": "Harpic",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "produt_name": "CinZal Toilet Cleaner 500ml",
+      "quantity": 2,
+      "unit": "ltr",
+      "rate": 162.72,
+      "total_price": 162.72
+    },
+    "actual_cost": 162.72,
+    "match_status": "matched",
+    "confidence_score": 70,
+    "confidence_summary": "Core product match (toilet cleaner; harpic treated as brand/category) | Units match after normalization (pcs with 500ml pack → ltr) | Exact quantity match (expected 1 ltr vs vendor 1 ltr) | Packaging extracted from invoice name: 500ml per pcs, qty 2 pcs → 1 ltr | Ambiguity: another CinZal 500ml toilet cleaner line exists (2 possible matches)"
+  },
+  {
+    "batch_item": {
+      "id": 31955,
+      "product_name": "Phenyle",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "produt_name": "CinZal Herbal Phenyle 1ltr",
+      "quantity": 2,
+      "unit": "ltr",
+      "rate": 93.22,
+      "total_price": 186.44
+    },
+    "actual_cost": 233.05,
+    "match_status": "matched",
+    "confidence_score": 65,
+    "confidence_summary": "Exact/core match (phenyle) | Units match after normalization (ltr) | Poor quantity match (expected 5 ltr vs vendor 2 ltr; 60% diff) | No other phenyle line; invoice appears short vs order | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31956,
+      "product_name": "Lizol",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "produt_name": "CinZal Floor Cleaner 500ml",
+      "quantity": 5,
+      "unit": "ltr",
+      "rate": 86,
+      "total_price": 215
+    },
+    "actual_cost": 86,
+    "match_status": "matched",
+    "confidence_score": 55,
+    "confidence_summary": "Core product/category match (floor cleaner; lizol treated as brand) | Units match after normalization (pcs with 500ml pack → ltr) | Poor quantity match (expected 1 ltr vs vendor 2.5 ltr; 150% diff) | Packaging extracted from invoice name: 500ml per pcs, qty 5 pcs → 2.5 ltr | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31966,
+      "product_name": "Ragi Flour",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Ragi Flour 5kg",
+      "quantity": 20,
+      "unit": "kg",
+      "rate": 55,
+      "total_price": 1100
+    },
+    "actual_cost": 1100,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Exact/core match (ragi flour) | Units match after normalization (kg) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31967,
+      "product_name": "Maida",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Maida 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 46,
+      "total_price": 230
+    },
+    "actual_cost": 230,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Exact match (maida) | Units match after normalization (kg) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31968,
+      "product_name": "Gram flour/Besan",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Bassin 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 95,
+      "total_price": 475
+    },
+    "actual_cost": 475,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Fuzzy/synonym match (besan↔bassin) | Units match after normalization (kg) | Exact quantity match | No special handling | Minor OCR/spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 31969,
+      "product_name": "Rice Flour",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Rice Flour 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 240
+    },
+    "actual_cost": 240,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Exact/core match (rice flour) | Units match after normalization (kg) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31970,
+      "product_name": "Urud Dal",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Urid Dhal 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "rate": 135,
+      "total_price": 540
+    },
+    "actual_cost": 270,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Fuzzy/synonym match (urud↔urid, dal↔dhal) | Units match after normalization (kg) | Exact quantity match | No special handling | Minor spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 31971,
+      "product_name": "Channa Dal",
+      "order_item_quantity": 2,
+      "product_quantity": 3,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Gram Dhal 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 105,
+      "total_price": 1050
+    },
+    "actual_cost": 315,
+    "match_status": "matched",
+    "confidence_score": 65,
+    "confidence_summary": "Synonym match (chana/channa dal↔gram dhal) | Units match after normalization (kg) | Poor quantity match (expected 6 kg vs vendor 10 kg; 66.67% diff) | Invoice quantity likely includes additional requirement beyond this order | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31972,
+      "product_name": "Moong Dal",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Moong Dhal 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "rate": 130,
+      "total_price": 520
+    },
+    "actual_cost": 260,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Exact/core match (moong dal/dhal) | Units match after normalization (kg) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31973,
+      "product_name": "Bengal Gram Dal",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null
+    },
+    "actual_cost": 0,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No match | N/A | N/A | No distinct invoice line for bengal gram dal (separate from chana/gram dal already mapped) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31974,
+      "product_name": "Mysore Dal",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Masore Dhal 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "rate": 100,
+      "total_price": 400
+    },
+    "actual_cost": 200,
+    "match_status": "matched",
+    "confidence_score": 94,
+    "confidence_summary": "Fuzzy match (mysore↔masore, dal↔dhal) | Units match after normalization (kg) | Exact quantity match | No special handling | Minor OCR/spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 31975,
+      "product_name": "Brown Bean",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Red Karaman 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "rate": 145,
+      "total_price": 580
+    },
+    "actual_cost": 290,
+    "match_status": "matched",
+    "confidence_score": 72,
+    "confidence_summary": "Fuzzy match (brown bean mapped to red karaman) | Units match after normalization (kg) | Exact quantity match | Commodity name mismatch risk (bean type not explicit) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31976,
+      "product_name": "Kabuli Chana (White Chana)",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Kabuli Channa 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "rate": 150,
+      "total_price": 600
+    },
+    "actual_cost": 300,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Exact/core match (kabuli chana/channa) | Units match after normalization (kg) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31977,
+      "product_name": "Black Eye Bean",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT White Karaman 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "rate": 125,
+      "total_price": 500
+    },
+    "actual_cost": 250,
+    "match_status": "matched",
+    "confidence_score": 60,
+    "confidence_summary": "Fuzzy/category match (black eye bean mapped to white karaman) | Units match after normalization (kg) | Exact quantity match | Commodity type uncertain; no explicit black-eye/chauli line on invoice | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31978,
+      "product_name": "Dosa Rice",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Dosa Rice 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 40,
+      "total_price": 400
+    },
+    "actual_cost": 400,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Exact match (dosa rice) | Units match after normalization (kg) | Exact quantity match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 31979,
+      "product_name": "Idly Rice",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Idli Rice 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 480
+    },
+    "actual_cost": 480,
+    "match_status": "matched",
+    "confidence_score": 65,
+    "confidence_summary": "Core product match (idly/idli rice) | Units match after normalization (kg) | Poor quantity match (expected 10 kg vs vendor 10 kg interpreted from invoice unit; invoice name indicates 5kg packs but unit given as kg) | Invoice packaging/unit inconsistency (5kg in name but quantity/unit already in kg) | Minor data quality issue"
+  },
+  {
+    "batch_item": {
+      "id": 31980,
+      "product_name": "Poha",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "produt_name": "IT Avalakki 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 55,
+      "total_price": 550
+    },
+    "actual_cost": 550,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Synonym match (poha↔avalakki) | Units match after normalization (kg) | Exact quantity match | No special handling | Clean invoice data"
+  }
+]
