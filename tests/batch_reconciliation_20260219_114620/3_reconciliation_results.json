@@ -8,7 +8,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Thour Dhal 1kg",
+      "product_name": "IT Thour Dhal 1kg",
       "quantity": 12,
       "unit": "kg",
       "rate": 178,
@@ -28,7 +28,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Bayar's Coffee 500g",
+      "product_name": "Bayar's Coffee 500g",
       "quantity": 2,
       "unit": "kg",
       "rate": 628.58,
@@ -48,7 +48,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Waghbakri Tea 1kg",
+      "product_name": "Waghbakri Tea 1kg",
       "quantity": 1,
       "unit": "kg",
       "rate": 250,
@@ -68,7 +68,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -88,7 +88,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Idli Soji 5kg",
+      "product_name": "IT Idli Soji 5kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 48,
@@ -108,7 +108,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT White Soji 5 kg",
+      "product_name": "IT White Soji 5 kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 48,
@@ -128,7 +128,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Bansi Soji 5kg",
+      "product_name": "IT Bansi Soji 5kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 49,
@@ -148,7 +148,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Charoti Soji 5kg",
+      "product_name": "IT Charoti Soji 5kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 48,
@@ -168,7 +168,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -188,7 +188,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Jaggery 1kg",
+      "product_name": "IT Jaggery 1kg",
       "quantity": 10,
       "unit": "kg",
       "rate": 62,
@@ -208,7 +208,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Isha Bullet Rice 26kg",
+      "product_name": "Isha Bullet Rice 26kg",
       "quantity": 52,
       "unit": "kg",
       "rate": 52,
@@ -228,7 +228,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -248,7 +248,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -268,7 +268,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -288,7 +288,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Rin Bar 10/-",
+      "product_name": "Rin Bar 10/-",
       "quantity": 20,
       "unit": "pcs",
       "rate": 8.47,
@@ -308,7 +308,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Exo Bar 10/-",
+      "product_name": "Exo Bar 10/-",
       "quantity": 20,
       "unit": "pcs",
       "rate": 8.47,
@@ -328,7 +328,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Shakthi Table Salt 1kg",
+      "product_name": "IT Shakthi Table Salt 1kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 14,
@@ -348,7 +348,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Vivel Soap 10/-",
+      "product_name": "Vivel Soap 10/-",
       "quantity": 10,
       "unit": "pcs",
       "rate": 8.47,
@@ -368,7 +368,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Pepsodent Paste Germicheck 10/-",
+      "product_name": "Pepsodent Paste Germicheck 10/-",
       "quantity": 20,
       "unit": "pcs",
       "rate": 8.47,
@@ -388,7 +388,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": "Pepsodent Toothbrush Med+",
+      "product_name": "Pepsodent Toothbrush Med+",
       "quantity": 10,
       "unit": "pcs",
       "rate": 16.95,
@@ -408,7 +408,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "CinZal Toilet Cleaner 500ml",
+      "product_name": "CinZal Toilet Cleaner 500ml",
       "quantity": 2,
       "unit": "ltr",
       "rate": 162.72,
@@ -428,7 +428,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "CinZal Herbal Phenyle 1ltr",
+      "product_name": "CinZal Herbal Phenyle 1ltr",
       "quantity": 2,
       "unit": "ltr",
       "rate": 93.22,
@@ -448,7 +448,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "CinZal Floor Cleaner 500ml",
+      "product_name": "CinZal Floor Cleaner 500ml",
       "quantity": 5,
       "unit": "ltr",
       "rate": 86,
@@ -468,7 +468,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Ragi Flour 5kg",
+      "product_name": "IT Ragi Flour 5kg",
       "quantity": 20,
       "unit": "kg",
       "rate": 55,
@@ -488,7 +488,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Maida 5kg",
+      "product_name": "IT Maida 5kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 46,
@@ -508,7 +508,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Bassin 1kg",
+      "product_name": "IT Bassin 1kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 95,
@@ -528,7 +528,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Rice Flour 1kg",
+      "product_name": "IT Rice Flour 1kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 48,
@@ -548,7 +548,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Urid Dhal 1kg",
+      "product_name": "IT Urid Dhal 1kg",
       "quantity": 4,
       "unit": "kg",
       "rate": 135,
@@ -568,7 +568,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Gram Dhal 1kg",
+      "product_name": "IT Gram Dhal 1kg",
       "quantity": 10,
       "unit": "kg",
       "rate": 105,
@@ -588,7 +588,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Moong Dhal 1kg",
+      "product_name": "IT Moong Dhal 1kg",
       "quantity": 4,
       "unit": "kg",
       "rate": 130,
@@ -608,7 +608,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -628,7 +628,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Masore Dhal 1kg",
+      "product_name": "IT Masore Dhal 1kg",
       "quantity": 4,
       "unit": "kg",
       "rate": 100,
@@ -648,7 +648,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Red Karaman 1kg",
+      "product_name": "IT Red Karaman 1kg",
       "quantity": 4,
       "unit": "kg",
       "rate": 145,
@@ -668,7 +668,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Kabuli Channa 1kg",
+      "product_name": "IT Kabuli Channa 1kg",
       "quantity": 4,
       "unit": "kg",
       "rate": 150,
@@ -688,7 +688,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT White Karaman 1kg",
+      "product_name": "IT White Karaman 1kg",
       "quantity": 4,
       "unit": "kg",
       "rate": 125,
@@ -708,7 +708,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Dosa Rice 1kg",
+      "product_name": "IT Dosa Rice 1kg",
       "quantity": 10,
       "unit": "kg",
       "rate": 40,
@@ -728,7 +728,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Idli Rice 5kg",
+      "product_name": "IT Idli Rice 5kg",
       "quantity": 10,
       "unit": "kg",
       "rate": 48,
@@ -748,7 +748,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Avalakki 1kg",
+      "product_name": "IT Avalakki 1kg",
       "quantity": 10,
       "unit": "kg",
       "rate": 55,

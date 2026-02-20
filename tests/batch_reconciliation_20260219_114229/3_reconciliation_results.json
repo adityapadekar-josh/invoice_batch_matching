@@ -8,7 +8,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Wagbhakri Tea 1kg",
+      "product_name": "Wagbhakri Tea 1kg",
       "quantity": 2,
       "unit": "kg",
       "rate": 260,
@@ -28,7 +28,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": "Rin Bar 10/-",
+      "product_name": "Rin Bar 10/-",
       "quantity": 2,
       "unit": "pcs",
       "rate": 9.52,
@@ -48,7 +48,7 @@
       "product_unit": "GRM"
     },
     "vendor_item": {
-      "produt_name": "Classic Turmeric Powder 500g",
+      "product_name": "Classic Turmeric Powder 500g",
       "quantity": 2,
       "unit": "pcs",
       "rate": 220,
@@ -68,7 +68,7 @@
       "product_unit": "KG"
     },
     "vendor_item": {
-      "produt_name": "MTR Vermicelli 850g",
+      "product_name": "MTR Vermicelli 850g",
       "quantity": 2,
       "unit": "pcs",
       "rate": 80,
@@ -88,7 +88,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Fortune Sun Lite Rf Sf Oil 1ltr",
+      "product_name": "Fortune Sun Lite Rf Sf Oil 1ltr",
       "quantity": 10,
       "unit": "ltr",
       "rate": 145,
@@ -108,7 +108,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -128,7 +128,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": "Clinic Plus Shampo 1/-",
+      "product_name": "Clinic Plus Shampo 1/-",
       "quantity": 400,
       "unit": "pcs",
       "rate": 0.85,
@@ -148,7 +148,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": "Pepsodent Toothbrush Med F+",
+      "product_name": "Pepsodent Toothbrush Med F+",
       "quantity": 20,
       "unit": "pcs",
       "rate": 18.0975,
@@ -168,7 +168,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Closeup Paste 17g 10/-",
+      "product_name": "Closeup Paste 17g 10/-",
       "quantity": 10,
       "unit": "pcs",
       "rate": 9.044,
@@ -188,7 +188,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Thour Dhal 1kg",
+      "product_name": "IT Thour Dhal 1kg",
       "quantity": 10,
       "unit": "kg",
       "rate": 150,
@@ -208,7 +208,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Domex Toilet Cleaner 475ml",
+      "product_name": "Domex Toilet Cleaner 475ml",
       "quantity": 2,
       "unit": "ltr",
       "rate": 176.5157894736842,
@@ -228,7 +228,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": "Ujala Fab Conditioner 900ml Bot",
+      "product_name": "Ujala Fab Conditioner 900ml Bot",
       "quantity": 1,
       "unit": "ltr",
       "rate": 210.2111111111111,
@@ -248,7 +248,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Domex Toilet Cleaner 475ml",
+      "product_name": "Domex Toilet Cleaner 475ml",
       "quantity": 2,
       "unit": "ltr",
       "rate": 176.5157894736842,
@@ -268,7 +268,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Clinjal Floor Cleaner 500ml",
+      "product_name": "Clinjal Floor Cleaner 500ml",
       "quantity": 1,
       "unit": "ltr",
       "rate": 177.12,
@@ -288,7 +288,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Arun Crystal Salt 1kg",
+      "product_name": "Arun Crystal Salt 1kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 12,
@@ -308,7 +308,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Tamarind 1kg",
+      "product_name": "IT Tamarind 1kg",
       "quantity": 2,
       "unit": "kg",
       "rate": 175,
@@ -328,7 +328,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Swastik Puliogare Mix 500g",
+      "product_name": "Swastik Puliogare Mix 500g",
       "quantity": 1,
       "unit": "kg",
       "rate": 377.14,
@@ -348,7 +348,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT White Soji 5 Kg",
+      "product_name": "IT White Soji 5 Kg",
       "quantity": 10,
       "unit": "kg",
       "rate": 48,
@@ -368,7 +368,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Green Moong 1kg",
+      "product_name": "IT Green Moong 1kg",
       "quantity": 6,
       "unit": "kg",
       "rate": 110,
@@ -388,7 +388,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Gram Dhal 1kg",
+      "product_name": "IT Gram Dhal 1kg",
       "quantity": 9,
       "unit": "kg",
       "rate": 110,
@@ -408,7 +408,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Jeera 100g",
+      "product_name": "Jeera 100g",
       "quantity": 8,
       "unit": "kg",
       "rate": 400,
@@ -428,7 +428,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Germisol Black Phenyle 500ml",
+      "product_name": "Germisol Black Phenyle 500ml",
       "quantity": 20,
       "unit": "ltr",
       "rate": 151.354,
@@ -448,7 +448,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Morelight Det Powder 1kg",
+      "product_name": "Morelight Det Powder 1kg",
       "quantity": 10,
       "unit": "kg",
       "rate": 59.189,
@@ -468,7 +468,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Moreligh Det Liquid 1ltr",
+      "product_name": "Moreligh Det Liquid 1ltr",
       "quantity": 4,
       "unit": "ltr",
       "rate": 79.705,
@@ -488,7 +488,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Bayar’s Coffee 500g",
+      "product_name": "Bayar’s Coffee 500g",
       "quantity": 2,
       "unit": "kg",
       "rate": 609.72,
@@ -508,7 +508,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Stemless Chilly 1kg",
+      "product_name": "Stemless Chilly 1kg",
       "quantity": 1,
       "unit": "kg",
       "rate": 380,

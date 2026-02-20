@@ -8,7 +8,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Sunpure oil",
+      "product_name": "Sunpure oil",
       "quantity": 20,
       "unit": "ltr",
       "rate": 165,
@@ -28,7 +28,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Coconut Oil",
+      "product_name": "Coconut Oil",
       "quantity": 2,
       "unit": "ltr",
       "rate": 304,
@@ -48,7 +48,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Til oil - Deepam oil",
+      "product_name": "Til oil - Deepam oil",
       "quantity": 2,
       "unit": "ltr",
       "rate": 200,
@@ -68,7 +68,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Detergent Bar",
+      "product_name": "Detergent Bar",
       "quantity": 40,
       "unit": "pcs",
       "rate": 8.2,
@@ -88,7 +88,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Dishwash Bar",
+      "product_name": "Dishwash Bar",
       "quantity": 40,
       "unit": "pcs",
       "rate": 8.2,
@@ -108,7 +108,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Atta",
+      "product_name": "Atta",
       "quantity": 40,
       "unit": "kg",
       "rate": 48,
@@ -128,7 +128,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Coffee Powder",
+      "product_name": "Coffee Powder",
       "quantity": 2,
       "unit": "kg",
       "rate": 375,
@@ -148,7 +148,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Tea Powder",
+      "product_name": "Tea Powder",
       "quantity": 2,
       "unit": "kg",
       "rate": 304,
@@ -168,7 +168,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": "Vim gel",
+      "product_name": "Vim gel",
       "quantity": 2,
       "unit": "ltr",
       "rate": 168,
@@ -188,7 +188,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Detergent Liquid",
+      "product_name": "Detergent Liquid",
       "quantity": 4,
       "unit": "ltr",
       "rate": 168,
@@ -208,7 +208,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": "Comfort",
+      "product_name": "Comfort",
       "quantity": 2,
       "unit": "ltr",
       "rate": 198,
@@ -228,7 +228,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Idly Rava",
+      "product_name": "Idly Rava",
       "quantity": 5,
       "unit": "kg",
       "rate": 55,
@@ -248,7 +248,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Sooji",
+      "product_name": "Sooji",
       "quantity": 5,
       "unit": "kg",
       "rate": 54,
@@ -268,7 +268,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Bansi Rava",
+      "product_name": "Bansi Rava",
       "quantity": 5,
       "unit": "kg",
       "rate": 54,
@@ -288,7 +288,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Chiroti Rava",
+      "product_name": "Chiroti Rava",
       "quantity": 5,
       "unit": "kg",
       "rate": 51,
@@ -308,7 +308,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Urad dal",
+      "product_name": "Urad dal",
       "quantity": 2,
       "unit": "kg",
       "rate": 138,
@@ -328,7 +328,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Chana dal",
+      "product_name": "Chana dal",
       "quantity": 3,
       "unit": "kg",
       "rate": 102,
@@ -348,7 +348,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Moong dal",
+      "product_name": "Moong dal",
       "quantity": 2,
       "unit": "kg",
       "rate": 136,
@@ -368,7 +368,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Bengal Gram",
+      "product_name": "Bengal Gram",
       "quantity": 2,
       "unit": "kg",
       "rate": 142,
@@ -388,7 +388,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Mysore Dal",
+      "product_name": "Mysore Dal",
       "quantity": 2,
       "unit": "kg",
       "rate": 105,
@@ -408,7 +408,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Brown Bean",
+      "product_name": "Brown Bean",
       "quantity": 2,
       "unit": "kg",
       "rate": 144,
@@ -428,7 +428,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Kabuli chana",
+      "product_name": "Kabuli chana",
       "quantity": 2,
       "unit": "kg",
       "rate": 145,
@@ -448,7 +448,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Black Eye Chana",
+      "product_name": "Black Eye Chana",
       "quantity": 2,
       "unit": "kg",
       "rate": 120,
@@ -468,7 +468,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Guntoor chilly",
+      "product_name": "Guntoor chilly",
       "quantity": 1,
       "unit": "kg",
       "rate": 250,
@@ -488,7 +488,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Byadgi Chilli",
+      "product_name": "Byadgi Chilli",
       "quantity": 1,
       "unit": "kg",
       "rate": 265,
@@ -508,7 +508,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Red Chilli",
+      "product_name": "Red Chilli",
       "quantity": 1,
       "unit": "kg",
       "rate": 216,
@@ -528,7 +528,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Coriander whole",
+      "product_name": "Coriander whole",
       "quantity": 1,
       "unit": "kg",
       "rate": 136,
@@ -548,7 +548,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Mustard",
+      "product_name": "Mustard",
       "quantity": 1,
       "unit": "kg",
       "rate": 100,
@@ -568,7 +568,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Pepper",
+      "product_name": "Pepper",
       "quantity": 0.4,
       "unit": "kg",
       "rate": 830,
@@ -588,7 +588,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Jeera",
+      "product_name": "Jeera",
       "quantity": 0.4,
       "unit": "kg",
       "rate": 318,
@@ -608,7 +608,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Elaichi",
+      "product_name": "Elaichi",
       "quantity": 0.2,
       "unit": "kg",
       "rate": 3235,
@@ -628,7 +628,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Methi",
+      "product_name": "Methi",
       "quantity": 1,
       "unit": "kg",
       "rate": 119,
@@ -648,7 +648,7 @@
       "product_unit": "GRM"
     },
     "vendor_item": {
-      "produt_name": "Bay leaf",
+      "product_name": "Bay leaf",
       "quantity": 0.1,
       "unit": "kg",
       "rate": 150,
@@ -668,7 +668,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Clove",
+      "product_name": "Clove",
       "quantity": 0.3,
       "unit": "kg",
       "rate": 1070,
@@ -688,7 +688,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Till",
+      "product_name": "Till",
       "quantity": 0.5,
       "unit": "kg",
       "rate": 204,
@@ -708,7 +708,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Green Cassia",
+      "product_name": "Green Cassia",
       "quantity": 0.2,
       "unit": "kg",
       "rate": 320,
@@ -728,7 +728,7 @@
       "product_unit": "GRM"
     },
     "vendor_item": {
-      "produt_name": "Poppy Seeds",
+      "product_name": "Poppy Seeds",
       "quantity": 0.1,
       "unit": "kg",
       "rate": 1200,
@@ -748,7 +748,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Tamarind",
+      "product_name": "Tamarind",
       "quantity": 1,
       "unit": "kg",
       "rate": 155,
@@ -768,7 +768,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Coriander Powder",
+      "product_name": "Coriander Powder",
       "quantity": 1,
       "unit": "kg",
       "rate": 181,
@@ -788,7 +788,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Puliogare Powder",
+      "product_name": "Puliogare Powder",
       "quantity": 0.5,
       "unit": "kg",
       "rate": 318,
@@ -808,7 +808,7 @@
       "product_unit": "GRM"
     },
     "vendor_item": {
-      "produt_name": "Vangibath Powder",
+      "product_name": "Vangibath Powder",
       "quantity": 0.5,
       "unit": "kg",
       "rate": 360,
@@ -828,7 +828,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Chilly powder",
+      "product_name": "Chilly powder",
       "quantity": 1,
       "unit": "kg",
       "rate": 182,
@@ -848,7 +848,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Sambar Powder",
+      "product_name": "Sambar Powder",
       "quantity": 1,
       "unit": "kg",
       "rate": 272,
@@ -868,7 +868,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Rasam Powder",
+      "product_name": "Rasam Powder",
       "quantity": 1,
       "unit": "kg",
       "rate": 275,
@@ -888,7 +888,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Bisibelebath Powder",
+      "product_name": "Bisibelebath Powder",
       "quantity": 1,
       "unit": "kg",
       "rate": 360,
@@ -908,7 +908,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Garam masala",
+      "product_name": "Garam masala",
       "quantity": 1,
       "unit": "kg",
       "rate": 249,
@@ -928,7 +928,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": "Shampoo Sachet",
+      "product_name": "Shampoo Sachet",
       "quantity": 200,
       "unit": "pcs",
       "rate": 0.82,
@@ -948,7 +948,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Soap",
+      "product_name": "Soap",
       "quantity": 10,
       "unit": "pcs",
       "rate": 35,
@@ -968,7 +968,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Tooth Paste",
+      "product_name": "Tooth Paste",
       "quantity": 10,
       "unit": "pcs",
       "rate": 16.5,
@@ -988,7 +988,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": "Tooth Brush",
+      "product_name": "Tooth Brush",
       "quantity": 10,
       "unit": "pcs",
       "rate": 17,

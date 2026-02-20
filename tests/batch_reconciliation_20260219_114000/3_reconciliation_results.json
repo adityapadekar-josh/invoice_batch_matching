@@ -8,7 +8,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Sabena 450g",
+      "product_name": "Sabena 450g",
       "quantity": 10,
       "unit": "kg",
       "rate": 28.244444444444447,
@@ -28,7 +28,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Nima Washing Powder 1kg",
+      "product_name": "Nima Washing Powder 1kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 60,
@@ -48,7 +48,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Wheel Soap 10/-",
+      "product_name": "Wheel Soap 10/-",
       "quantity": 20,
       "unit": "pcs",
       "rate": 8.47,
@@ -68,7 +68,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Exo Bar 10/-",
+      "product_name": "Exo Bar 10/-",
       "quantity": 20,
       "unit": "pcs",
       "rate": 8.47,
@@ -88,7 +88,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": "Milky Mist Ghee 1ltr",
+      "product_name": "Milky Mist Ghee 1ltr",
       "quantity": 1,
       "unit": "ltr",
       "rate": 650.89,
@@ -108,7 +108,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Nova Milk Powder 1kg",
+      "product_name": "Nova Milk Powder 1kg",
       "quantity": 1,
       "unit": "kg",
       "rate": 360,
@@ -128,7 +128,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -148,7 +148,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -168,7 +168,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Mathas Coffee Gold 500g",
+      "product_name": "Mathas Coffee Gold 500g",
       "quantity": 2,
       "unit": "kg",
       "rate": 742.86,
@@ -188,7 +188,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Waghbakri Tea 1kg",
+      "product_name": "Waghbakri Tea 1kg",
       "quantity": 1,
       "unit": "kg",
       "rate": 244.76,
@@ -208,7 +208,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": "Cinthi Plus Shampoo 1/-",
+      "product_name": "Cinthi Plus Shampoo 1/-",
       "quantity": 200,
       "unit": "pcs",
       "rate": 0.85,
@@ -228,7 +228,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Vivel Cool Mint Soap 10/-",
+      "product_name": "Vivel Cool Mint Soap 10/-",
       "quantity": 10,
       "unit": "pcs",
       "rate": 8.47,
@@ -248,7 +248,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Closeup 1 Paste 17g",
+      "product_name": "Closeup 1 Paste 17g",
       "quantity": 10,
       "unit": "pcs",
       "rate": 8.47,
@@ -268,7 +268,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -288,7 +288,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Fortune Soya Oil 1ltr",
+      "product_name": "Fortune Soya Oil 1ltr",
       "quantity": 6,
       "unit": "ltr",
       "rate": 140,
@@ -308,7 +308,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": "Milky Mist Ghee 1ltr",
+      "product_name": "Milky Mist Ghee 1ltr",
       "quantity": 1,
       "unit": "ltr",
       "rate": 650.89,
@@ -328,7 +328,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Nova Milk Powder 1kg",
+      "product_name": "Nova Milk Powder 1kg",
       "quantity": 1,
       "unit": "kg",
       "rate": 360,
@@ -348,7 +348,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -368,7 +368,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -388,7 +388,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Wheel Soap 10/-",
+      "product_name": "Wheel Soap 10/-",
       "quantity": 20,
       "unit": "pcs",
       "rate": 8.47,
@@ -408,7 +408,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Waghbakri Tea 1kg",
+      "product_name": "Waghbakri Tea 1kg",
       "quantity": 1,
       "unit": "kg",
       "rate": 244.76,
@@ -428,7 +428,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Mathas Coffee Gold 500g",
+      "product_name": "Mathas Coffee Gold 500g",
       "quantity": 2,
       "unit": "kg",
       "rate": 742.86,
@@ -448,7 +448,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Exo Bar 10/-",
+      "product_name": "Exo Bar 10/-",
       "quantity": 20,
       "unit": "pcs",
       "rate": 8.47,
@@ -468,7 +468,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Sugar 5kg",
+      "product_name": "Sugar 5kg",
       "quantity": 10,
       "unit": "kg",
       "rate": 45,
@@ -488,7 +488,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "IT Jaggery 5kg",
+      "product_name": "IT Jaggery 5kg",
       "quantity": 10,
       "unit": "kg",
       "rate": 65,
@@ -508,7 +508,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Arun Crystal Salt 1kg",
+      "product_name": "Arun Crystal Salt 1kg",
       "quantity": 5,
       "unit": "kg",
       "rate": 12,
@@ -528,7 +528,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Fortune Soya Oil 1ltr",
+      "product_name": "Fortune Soya Oil 1ltr",
       "quantity": 6,
       "unit": "ltr",
       "rate": 140,
@@ -548,7 +548,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,

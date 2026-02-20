@@ -384,7 +384,7 @@ Return a JSON ARRAY with this EXACT schema:
       "product_unit": string,        
     },
     "vendor_item": {
-      "produt_name": string | null,
+      "product_name": string | null,
       "quantity": number | null,
       "unit": "kg" | "ltr" | "pcs" | null,
       "rate": number | null,

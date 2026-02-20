@@ -8,7 +8,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Sunpure oil",
+      "product_name": "Sunpure oil",
       "quantity": 30,
       "unit": "ltr",
       "rate": 165,
@@ -28,7 +28,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": null,
+      "product_name": null,
       "quantity": null,
       "unit": null,
       "rate": null,
@@ -48,7 +48,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Toor dal",
+      "product_name": "Toor dal",
       "quantity": 10,
       "unit": "kg",
       "rate": 138,
@@ -68,7 +68,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Detergent Powder",
+      "product_name": "Detergent Powder",
       "quantity": 10,
       "unit": "kg",
       "rate": 64,
@@ -88,7 +88,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Sabeena Powder",
+      "product_name": "Sabeena Powder",
       "quantity": 10,
       "unit": "kg",
       "rate": 29,
@@ -108,7 +108,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Detergent Bar",
+      "product_name": "Detergent Bar",
       "quantity": 40,
       "unit": "pcs",
       "rate": 8.2,
@@ -128,7 +128,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Dishwash Bar",
+      "product_name": "Dishwash Bar",
       "quantity": 40,
       "unit": "pcs",
       "rate": 8.2,
@@ -148,7 +148,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": "Ghee",
+      "product_name": "Ghee",
       "quantity": 1,
       "unit": "ltr",
       "rate": 545,
@@ -168,7 +168,7 @@
       "product_unit": "gms"
     },
     "vendor_item": {
-      "produt_name": "Milk Powder 500G",
+      "product_name": "Milk Powder 500G",
       "quantity": 2,
       "unit": "pcs",
       "rate": 223,
@@ -188,7 +188,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": "Shampoo Sachet",
+      "product_name": "Shampoo Sachet",
       "quantity": 400,
       "unit": "pcs",
       "rate": 0.82,
@@ -208,7 +208,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Soap",
+      "product_name": "Soap",
       "quantity": 20,
       "unit": "pcs",
       "rate": 35,
@@ -228,7 +228,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Tooth Paste",
+      "product_name": "Tooth Paste",
       "quantity": 20,
       "unit": "pcs",
       "rate": 16.5,
@@ -248,7 +248,7 @@
       "product_unit": "NO"
     },
     "vendor_item": {
-      "produt_name": "Tooth Brush",
+      "product_name": "Tooth Brush",
       "quantity": 20,
       "unit": "pcs",
       "rate": 17,
@@ -268,7 +268,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Atta",
+      "product_name": "Atta",
       "quantity": 20,
       "unit": "kg",
       "rate": 48,
@@ -288,7 +288,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Coffee Powder",
+      "product_name": "Coffee Powder",
       "quantity": 2,
       "unit": "kg",
       "rate": 375,
@@ -308,7 +308,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Tea Powder",
+      "product_name": "Tea Powder",
       "quantity": 2,
       "unit": "kg",
       "rate": 304,
@@ -328,7 +328,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": "Vim gel",
+      "product_name": "Vim gel",
       "quantity": 2,
       "unit": "ltr",
       "rate": 168,
@@ -348,7 +348,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Detergent Liquid",
+      "product_name": "Detergent Liquid",
       "quantity": 4,
       "unit": "ltr",
       "rate": 168,
@@ -368,7 +368,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": "Comfort",
+      "product_name": "Comfort",
       "quantity": 2,
       "unit": "ltr",
       "rate": 198,
@@ -388,7 +388,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Harpic",
+      "product_name": "Harpic",
       "quantity": 2,
       "unit": "ltr",
       "rate": 199,
@@ -408,7 +408,7 @@
       "product_unit": "ML"
     },
     "vendor_item": {
-      "produt_name": "Dettol 500ML",
+      "product_name": "Dettol 500ML",
       "quantity": 2,
       "unit": "pcs",
       "rate": 219,
@@ -428,7 +428,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Phenyle 5LTR",
+      "product_name": "Phenyle 5LTR",
       "quantity": 2,
       "unit": "pcs",
       "rate": 295,
@@ -448,7 +448,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Lizol",
+      "product_name": "Lizol",
       "quantity": 2,
       "unit": "ltr",
       "rate": 199,
@@ -468,7 +468,7 @@
       "product_unit": "Ltr"
     },
     "vendor_item": {
-      "produt_name": "Domex",
+      "product_name": "Domex",
       "quantity": 4,
       "unit": "pcs",
       "rate": 96,
@@ -488,7 +488,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Idly Rava",
+      "product_name": "Idly Rava",
       "quantity": 5,
       "unit": "kg",
       "rate": 55,
@@ -508,7 +508,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Sooji",
+      "product_name": "Sooji",
       "quantity": 5,
       "unit": "kg",
       "rate": 54,
@@ -528,7 +528,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Bansi Rava",
+      "product_name": "Bansi Rava",
       "quantity": 5,
       "unit": "kg",
       "rate": 54,
@@ -548,7 +548,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Chiroti Rava",
+      "product_name": "Chiroti Rava",
       "quantity": 5,
       "unit": "kg",
       "rate": 60,
@@ -568,7 +568,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Cloth washing brush",
+      "product_name": "Cloth washing brush",
       "quantity": 4,
       "unit": "pcs",
       "rate": 59.04,
@@ -588,7 +588,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Floor scrubbing",
+      "product_name": "Floor scrubbing",
       "quantity": 2,
       "unit": "pcs",
       "rate": 70,
@@ -608,7 +608,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Body Brush",
+      "product_name": "Body Brush",
       "quantity": 2,
       "unit": "pcs",
       "rate": 21,
@@ -628,7 +628,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Scrubpad - vessel",
+      "product_name": "Scrubpad - vessel",
       "quantity": 5,
       "unit": "pcs",
       "rate": 8.2,
@@ -648,7 +648,7 @@
       "product_unit": "No"
     },
     "vendor_item": {
-      "produt_name": "Steel Scrub",
+      "product_name": "Steel Scrub",
       "quantity": 5,
       "unit": "pcs",
       "rate": 12.5,
@@ -668,7 +668,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Sugar",
+      "product_name": "Sugar",
       "quantity": 10,
       "unit": "kg",
       "rate": 48,
@@ -688,7 +688,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Jaggery",
+      "product_name": "Jaggery",
       "quantity": 10,
       "unit": "kg",
       "rate": 68,
@@ -708,7 +708,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Salt",
+      "product_name": "Salt",
       "quantity": 5,
       "unit": "kg",
       "rate": 29,
@@ -728,7 +728,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Rice",
+      "product_name": "Rice",
       "quantity": 104,
       "unit": "kg",
       "rate": 58,
@@ -748,7 +748,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Ragi Flour",
+      "product_name": "Ragi Flour",
       "quantity": 20,
       "unit": "kg",
       "rate": 59,
@@ -768,7 +768,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Maida",
+      "product_name": "Maida",
       "quantity": 5,
       "unit": "kg",
       "rate": 48,
@@ -788,7 +788,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Gram Flour",
+      "product_name": "Gram Flour",
       "quantity": 5,
       "unit": "kg",
       "rate": 115,
@@ -808,7 +808,7 @@
       "product_unit": "kg"
     },
     "vendor_item": {
-      "produt_name": "Rice Flour",
+      "product_name": "Rice Flour",
       "quantity": 5,
       "unit": "kg",
       "rate": 50,
