@@ -226,9 +226,9 @@ A batch item is considered MATCHED if:
 2. Units are compatible after normalization
 
 MATCH STATUS:
-- "matched"
-- "missing"
-- "incorrect_match"
+- "matched"       — name match found AND units are compatible after normalization
+- "missing"       — no name match found in the invoice for this batch item
+- "incorrect_match" — a name match exists but units are fundamentally incompatible and no conversion is possible (e.g., kg vs pcs)
 
 
 --------------------------------------------------------
@@ -253,7 +253,9 @@ actual_cost = vendor_cost + gst_amount
 - Round all GST amounts to nearest integer using standard rounding (half-up).
 - Round actual_cost to nearest integer using standard rounding (half-up).
 
-When units are incompatible and conversion is not possible:
+When match_status is "missing" or "incorrect_match":
+- Set actual_cost = null
+- Set all vendor_item fields to null
 - Explain in confidence_summary
 
 DETAILED EXAMPLES:
@@ -359,7 +361,7 @@ you MUST classify it as:
 "Exact match"
 and apply 0 deduction.
 
-C) DATA QUALITY
+B) UNIT MATCH
 - Units match exactly: -0 points
 - Units matched after normalization: -0 points
 - Units ambiguous in invoice: -10 points
@@ -377,7 +379,6 @@ D) AMBIGUITY
 FLOOR: Confidence score cannot go below 0
 
 CONFIDENCE SUMMARY TEMPLATE:
-"[Name match quality] | [Unit match status]| [Quantity match status] | [Any special handling] | [Data quality notes]"
 "[Name match summary] | [Unit match summary] | [Quantity match summary] | [Special handling if any] | [Data quality notes]"
 
 
@@ -406,7 +407,7 @@ Return a JSON ARRAY with this EXACT schema:
         "amount": number | null
       },
     },
-    "actual_cost":number,
+    "actual_cost":number | null,
     "match_status": "matched" | "missing" | "incorrect_match",
     "confidence_score": number,
     "confidence_summary": string
