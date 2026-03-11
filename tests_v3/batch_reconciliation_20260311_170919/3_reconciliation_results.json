@@ -1,0 +1,986 @@
+[
+  {
+    "batch_item": {
+      "id": 25984,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 30,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Sunpure oil",
+      "quantity": 30,
+      "unit": "ltr",
+      "rate": 165,
+      "total_price": 4950,
+      "gst": {
+        "rate": 5,
+        "amount": 248
+      }
+    },
+    "actual_cost": 5198,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match (cooking oil ↔ oil; brand ignored) | Unit match after normalization (ltr) | Quantity exact match (30 ltr vs 30 ltr) | Matched to single clear invoice line | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26011,
+      "product_name": "Toilet Brush",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No suitable invoice line for toilet brush (only cloth washing/floor/body brush present) | Unit N/A | Quantity N/A | No match found | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25985,
+      "product_name": "Toor Dal",
+      "order_item_quantity": 10,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Toor dal",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 138,
+      "total_price": 1380,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 1380,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (toor dal) | Unit match after normalization (kg) | Quantity exact match (10 kg vs 10 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25986,
+      "product_name": "Detergent Powder",
+      "order_item_quantity": 2,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Detergent Powder",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 64,
+      "total_price": 640,
+      "gst": {
+        "rate": 18,
+        "amount": 115
+      }
+    },
+    "actual_cost": 755,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (detergent powder) | Unit match after normalization (kg) | Quantity exact match (10 kg vs 10 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25987,
+      "product_name": "Sabena",
+      "order_item_quantity": 2,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Sabeena Powder",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 29,
+      "total_price": 290,
+      "gst": {
+        "rate": 18,
+        "amount": 52
+      }
+    },
+    "actual_cost": 342,
+    "match_status": "matched",
+    "confidence_score": 93,
+    "confidence_summary": "Fuzzy/synonym match (sabena ↔ sabeena powder) | Unit match after normalization (kg) | Quantity exact match (10 kg vs 10 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25988,
+      "product_name": "Detergent Soap",
+      "order_item_quantity": 2,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Detergent Bar",
+      "quantity": 40,
+      "unit": "pcs",
+      "rate": 8.2,
+      "total_price": 328,
+      "gst": {
+        "rate": 18,
+        "amount": 59
+      }
+    },
+    "actual_cost": 387,
+    "match_status": "matched",
+    "confidence_score": 92,
+    "confidence_summary": "Core product match (detergent soap ↔ detergent bar) | Unit match after normalization (no→pcs) | Quantity exact match (40 pcs vs 40 pcs) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25989,
+      "product_name": "Vim Soap",
+      "order_item_quantity": 2,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Dishwash Bar",
+      "quantity": 40,
+      "unit": "pcs",
+      "rate": 8.2,
+      "total_price": 328,
+      "gst": {
+        "rate": 18,
+        "amount": 59
+      }
+    },
+    "actual_cost": 387,
+    "match_status": "matched",
+    "confidence_score": 78,
+    "confidence_summary": "Fuzzy/core match (vim soap ↔ dishwash bar; dishwash category match but brand missing) | Unit match after normalization (no→pcs) | Quantity exact match (40 pcs vs 40 pcs) | Ambiguity: could also relate to 'Dishwash Bar' vs other dishwash items (vim gel) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25990,
+      "product_name": "Pure Desi Ghee",
+      "order_item_quantity": 2,
+      "product_quantity": 500,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": "Ghee",
+      "quantity": 1,
+      "unit": "ltr",
+      "rate": 545,
+      "total_price": 545,
+      "gst": {
+        "rate": 12,
+        "amount": 65
+      }
+    },
+    "actual_cost": 610,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Core product match (ghee) | Unit match after normalization (ml→ltr) | Quantity exact match (1 ltr vs 1 ltr) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25991,
+      "product_name": "Milk Powder",
+      "order_item_quantity": 2,
+      "product_quantity": 500,
+      "product_unit": "gms"
+    },
+    "vendor_item": {
+      "product_name": "Milk Powder 500G",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 446,
+      "total_price": 446,
+      "gst": {
+        "rate": 5,
+        "amount": 22
+      }
+    },
+    "actual_cost": 468,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Exact/core match (milk powder) | Unit match after normalization (pcs with 500g extracted → kg) | Quantity exact match (1 kg vs 1 kg) | Packaging extracted from invoice name (500g per pcs) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25992,
+      "product_name": "Shampoo (Sachet)",
+      "order_item_quantity": 2,
+      "product_quantity": 200,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "product_name": "Shampoo Sachet",
+      "quantity": 400,
+      "unit": "pcs",
+      "rate": 0.82,
+      "total_price": 328,
+      "gst": {
+        "rate": 18,
+        "amount": 59
+      }
+    },
+    "actual_cost": 387,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (shampoo sachet) | Unit match after normalization (no→pcs) | Quantity exact match (400 pcs vs 400 pcs) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25993,
+      "product_name": "Bathing Soap",
+      "order_item_quantity": 2,
+      "product_quantity": 10,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Soap",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 35,
+      "total_price": 700,
+      "gst": {
+        "rate": 18,
+        "amount": 126
+      }
+    },
+    "actual_cost": 826,
+    "match_status": "matched",
+    "confidence_score": 90,
+    "confidence_summary": "Core product match (bathing soap ↔ soap) | Unit match after normalization (no→pcs) | Quantity exact match (20 pcs vs 20 pcs) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25994,
+      "product_name": "Colgate Tooth Paste",
+      "order_item_quantity": 2,
+      "product_quantity": 10,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Tooth Paste",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 16.5,
+      "total_price": 330,
+      "gst": {
+        "rate": 18,
+        "amount": 59
+      }
+    },
+    "actual_cost": 389,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Brand + core product match (colgate tooth paste ↔ tooth paste; brand ignored) | Unit match after normalization (no→pcs) | Quantity exact match (20 pcs vs 20 pcs) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25995,
+      "product_name": "Tooth Brush",
+      "order_item_quantity": 2,
+      "product_quantity": 10,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "product_name": "Tooth Brush",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 17,
+      "total_price": 340,
+      "gst": {
+        "rate": 12,
+        "amount": 41
+      }
+    },
+    "actual_cost": 381,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (tooth brush) | Unit match after normalization (no→pcs) | Quantity exact match (20 pcs vs 20 pcs) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25996,
+      "product_name": "Wheat Flour",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Atta",
+      "quantity": 20,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 960,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 960,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Synonym match (wheat flour ↔ atta) | Unit match after normalization (kg) | Quantity exact match (20 kg vs 20 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25997,
+      "product_name": "Coffee Powder",
+      "order_item_quantity": 2,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Coffee Powder",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 375,
+      "total_price": 750,
+      "gst": {
+        "rate": 18,
+        "amount": 135
+      }
+    },
+    "actual_cost": 885,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (coffee powder) | Unit match after normalization (kg) | Quantity exact match (2 kg vs 2 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25998,
+      "product_name": "Tea Powder",
+      "order_item_quantity": 2,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Tea Powder",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 304,
+      "total_price": 608,
+      "gst": {
+        "rate": 5,
+        "amount": 30
+      }
+    },
+    "actual_cost": 638,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (tea powder) | Unit match after normalization (kg) | Quantity exact match (2 kg vs 2 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 25999,
+      "product_name": "Vim Gel",
+      "order_item_quantity": 2,
+      "product_quantity": 900,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": "Vim gel",
+      "quantity": 2,
+      "unit": "ltr",
+      "rate": 168,
+      "total_price": 336,
+      "gst": {
+        "rate": 18,
+        "amount": 109
+      }
+    },
+    "actual_cost": 713,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Exact name match (vim gel) | Unit match after normalization (ml→ltr) | Quantity mismatch: vendor_quantity > expected_quantity (2 ltr vs 1.8 ltr) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26000,
+      "product_name": "Washing Liquid ( Rin/surfexcel/tide)",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Detergent Liquid",
+      "quantity": 4,
+      "unit": "ltr",
+      "rate": 168,
+      "total_price": 672,
+      "gst": {
+        "rate": 18,
+        "amount": 121
+      }
+    },
+    "actual_cost": 793,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Core product match (washing liquid ↔ detergent liquid) | Unit match after normalization (ltr) | Quantity exact match (4 ltr vs 4 ltr) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26001,
+      "product_name": "Comfort Fabric Conditioner",
+      "order_item_quantity": 2,
+      "product_quantity": 860,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": "Comfort",
+      "quantity": 2,
+      "unit": "ltr",
+      "rate": 198,
+      "total_price": 396,
+      "gst": {
+        "rate": 18,
+        "amount": 123
+      }
+    },
+    "actual_cost": 797,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Brand/core match (comfort fabric conditioner ↔ comfort) | Unit match after normalization (ml→ltr) | Quantity mismatch: vendor_quantity > expected_quantity (2 ltr vs 1.72 ltr) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26002,
+      "product_name": "Harpic",
+      "order_item_quantity": 2,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Harpic",
+      "quantity": 2,
+      "unit": "ltr",
+      "rate": 199,
+      "total_price": 398,
+      "gst": {
+        "rate": 18,
+        "amount": 72
+      }
+    },
+    "actual_cost": 470,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (harpic) | Unit match after normalization (ltr) | Quantity exact match (2 ltr vs 2 ltr) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26003,
+      "product_name": "Dettol",
+      "order_item_quantity": 2,
+      "product_quantity": 500,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": "Dettol 500ML",
+      "quantity": 1,
+      "unit": "ltr",
+      "rate": 438,
+      "total_price": 438,
+      "gst": {
+        "rate": 18,
+        "amount": 79
+      }
+    },
+    "actual_cost": 517,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Exact/core match (dettol) | Unit match after normalization (pcs with 500ml extracted → ltr) | Quantity exact match (1 ltr vs 1 ltr) | Packaging extracted from invoice name (500ml per pcs) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26004,
+      "product_name": "Phenyle",
+      "order_item_quantity": 2,
+      "product_quantity": 5,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Phenyle 5LTR",
+      "quantity": 10,
+      "unit": "ltr",
+      "rate": 59,
+      "total_price": 590,
+      "gst": {
+        "rate": 18,
+        "amount": 106
+      }
+    },
+    "actual_cost": 696,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Exact name match (phenyle) | Unit match after normalization (pcs with 5ltr extracted → ltr) | Quantity exact match (10 ltr vs 10 ltr) | Packaging extracted from invoice name (5ltr per pcs) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26005,
+      "product_name": "Lizol",
+      "order_item_quantity": 2,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Lizol",
+      "quantity": 2,
+      "unit": "ltr",
+      "rate": 199,
+      "total_price": 398,
+      "gst": {
+        "rate": 18,
+        "amount": 72
+      }
+    },
+    "actual_cost": 470,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (lizol) | Unit match after normalization (ltr) | Quantity exact match (2 ltr vs 2 ltr) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26006,
+      "product_name": "Domex",
+      "order_item_quantity": 2,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Domex",
+      "quantity": 4,
+      "unit": "ltr",
+      "rate": 96,
+      "total_price": 384,
+      "gst": {
+        "rate": 18,
+        "amount": 69
+      }
+    },
+    "actual_cost": 261,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Exact name match (domex) | Unit match after normalization (invoice pcs treated as 1 ltr each by batch's ltr expectation) | Quantity mismatch: vendor_quantity > expected_quantity (4 ltr vs 2 ltr) | Possible invoice unit/size ambiguity (no size in name) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26007,
+      "product_name": "Idly Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Idly Rava",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 55,
+      "total_price": 275,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 275,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (idly rava) | Unit match after normalization (kg) | Quantity exact match (5 kg vs 5 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26008,
+      "product_name": "Suji/Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Sooji",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 54,
+      "total_price": 270,
+      "gst": {
+        "rate": 5,
+        "amount": 14
+      }
+    },
+    "actual_cost": 284,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Synonym match (suji ↔ sooji; rava) | Unit match after normalization (kg) | Quantity exact match (5 kg vs 5 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26009,
+      "product_name": "Bansi Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Bansi Rava",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 54,
+      "total_price": 270,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 270,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (bansi rava) | Unit match after normalization (kg) | Quantity exact match (5 kg vs 5 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26010,
+      "product_name": "Chiroti Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Chiroti Rava",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 60,
+      "total_price": 300,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 300,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (chiroti rava) | Unit match after normalization (kg) | Quantity exact match (5 kg vs 5 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26012,
+      "product_name": "Cloth Washing Brush",
+      "order_item_quantity": 1,
+      "product_quantity": 4,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Cloth washing brush",
+      "quantity": 4,
+      "unit": "pcs",
+      "rate": 59.04,
+      "total_price": 236.16,
+      "gst": {
+        "rate": 18,
+        "amount": 42
+      }
+    },
+    "actual_cost": 279,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (cloth washing brush) | Unit match after normalization (no→pcs) | Quantity exact match (4 pcs vs 4 pcs) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26013,
+      "product_name": "Floor Scrubbing Brush",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Floor scrubbing",
+      "quantity": 2,
+      "unit": "pcs",
+      "rate": 70,
+      "total_price": 140,
+      "gst": {
+        "rate": 12,
+        "amount": 17
+      }
+    },
+    "actual_cost": 157,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match (floor scrubbing brush ↔ floor scrubbing) | Unit match after normalization (no→pcs) | Quantity exact match (2 pcs vs 2 pcs) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26014,
+      "product_name": "Body Brush",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Body Brush",
+      "quantity": 2,
+      "unit": "pcs",
+      "rate": 21,
+      "total_price": 42,
+      "gst": {
+        "rate": 18,
+        "amount": 8
+      }
+    },
+    "actual_cost": 50,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (body brush) | Unit match after normalization (no→pcs) | Quantity exact match (2 pcs vs 2 pcs) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26015,
+      "product_name": "Scrub Pad",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Scrubpad - vessel",
+      "quantity": 5,
+      "unit": "pcs",
+      "rate": 8.2,
+      "total_price": 41,
+      "gst": {
+        "rate": 18,
+        "amount": 7
+      }
+    },
+    "actual_cost": 48,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Core product match (scrub pad ↔ scrubpad) | Unit match after normalization (no→pcs) | Quantity exact match (5 pcs vs 5 pcs) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26016,
+      "product_name": "Steel Scrubber",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Steel Scrub",
+      "quantity": 5,
+      "unit": "pcs",
+      "rate": 12.5,
+      "total_price": 62.5,
+      "gst": {
+        "rate": 18,
+        "amount": 11
+      }
+    },
+    "actual_cost": 74,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match (steel scrubber ↔ steel scrub) | Unit match after normalization (no→pcs) | Quantity exact match (5 pcs vs 5 pcs) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26017,
+      "product_name": "Sugar",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Sugar",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 480,
+      "gst": {
+        "rate": 5,
+        "amount": 24
+      }
+    },
+    "actual_cost": 504,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (sugar) | Unit match after normalization (kg) | Quantity exact match (10 kg vs 10 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26018,
+      "product_name": "Jaggery",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Jaggery",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 68,
+      "total_price": 680,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 680,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (jaggery) | Unit match after normalization (kg) | Quantity exact match (10 kg vs 10 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26019,
+      "product_name": "Stone + Table Salt",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Salt",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 29,
+      "total_price": 145,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 145,
+    "match_status": "matched",
+    "confidence_score": 92,
+    "confidence_summary": "Core product match (salt) | Unit match after normalization (kg) | Quantity exact match (5 kg vs 5 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26020,
+      "product_name": "Rice",
+      "order_item_quantity": 4,
+      "product_quantity": 25,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Rice",
+      "quantity": 104,
+      "unit": "kg",
+      "rate": 58,
+      "total_price": 6032,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 5800,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Exact name match (rice) | Unit match after normalization (kg) | Quantity mismatch: vendor_quantity > expected_quantity (104 kg vs 100 kg) | Single clear match (invoice likely covers extra) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26021,
+      "product_name": "Ragi Flour",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Ragi Flour",
+      "quantity": 20,
+      "unit": "kg",
+      "rate": 59,
+      "total_price": 1180,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 1180,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (ragi flour) | Unit match after normalization (kg) | Quantity exact match (20 kg vs 20 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26022,
+      "product_name": "Maida",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Maida",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 240,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 240,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (maida) | Unit match after normalization (kg) | Quantity exact match (5 kg vs 5 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26023,
+      "product_name": "Gram flour/Besan",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Gram Flour",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 115,
+      "total_price": 575,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 575,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Exact/core match (gram flour/besan ↔ gram flour) | Unit match after normalization (kg) | Quantity exact match (5 kg vs 5 kg) | Single clear match | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 26024,
+      "product_name": "Rice Flour",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Rice Flour",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 50,
+      "total_price": 250,
+      "gst": {
+        "rate": 5,
+        "amount": 13
+      }
+    },
+    "actual_cost": 263,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact name match (rice flour) | Unit match after normalization (kg) | Quantity exact match (5 kg vs 5 kg) | Single clear match | Clean invoice data"
+  }
+]

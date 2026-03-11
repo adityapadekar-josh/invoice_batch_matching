@@ -46,7 +46,7 @@ def get_db_connection():
 def create_run_folder() -> Path:
     """Create a timestamped folder for this run."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    folder_path = Path(f"tests_v2/batch_reconciliation_{timestamp}")
+    folder_path = Path(f"tests_v3/batch_reconciliation_{timestamp}")
     folder_path.mkdir(exist_ok=True)
     return folder_path
 

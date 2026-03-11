@@ -1,0 +1,626 @@
+[
+  {
+    "batch_item": {
+      "id": 34458,
+      "product_name": "Tea Powder",
+      "order_item_quantity": 2,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Wagbhakri Tea 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 260,
+      "total_price": 520,
+      "gst": {
+        "rate": 5,
+        "amount": 26
+      }
+    },
+    "actual_cost": 546,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Core product match (tea powder ↔ tea) | Units compatible after normalization (kg) | Quantity exact match (expected 2 kg vs vendor 2 kg) | Brand ignored | Minor OCR/noise"
+  },
+  {
+    "batch_item": {
+      "id": 34442,
+      "product_name": "Rin Bar Soap",
+      "order_item_quantity": 2,
+      "product_quantity": 1,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "product_name": "Rin Bar 10/-",
+      "quantity": 2,
+      "unit": "pcs",
+      "rate": 9.52,
+      "total_price": 19.04,
+      "gst": {
+        "rate": 5,
+        "amount": 1
+      }
+    },
+    "actual_cost": 21,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact/core product match (rin bar soap ↔ rin bar) | Units normalized (NO→pcs) | Quantity exact match (expected 2 pcs vs vendor 2 pcs) | Clean line item"
+  },
+  {
+    "batch_item": {
+      "id": 34443,
+      "product_name": "Turmeric Powder",
+      "order_item_quantity": 4,
+      "product_quantity": 250,
+      "product_unit": "GRM"
+    },
+    "vendor_item": {
+      "product_name": "Classic Turmeric Powder 500g",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 220,
+      "total_price": 220,
+      "gst": {
+        "rate": 5,
+        "amount": 11
+      }
+    },
+    "actual_cost": 231,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Core product match (turmeric powder) | Units matched after normalization (batch g→kg; invoice pcs with 500g extracted→kg) | Quantity exact match (expected 1 kg vs vendor 1 kg) | Packaging extracted from invoice name"
+  },
+  {
+    "batch_item": {
+      "id": 34444,
+      "product_name": "Semiya",
+      "order_item_quantity": 2,
+      "product_quantity": 1,
+      "product_unit": "KG"
+    },
+    "vendor_item": {
+      "product_name": "MTR Vermicelli 850g",
+      "quantity": 1.7,
+      "unit": "kg",
+      "rate": 80,
+      "total_price": 136,
+      "gst": {
+        "rate": 5,
+        "amount": 8
+      }
+    },
+    "actual_cost": 168,
+    "match_status": "matched",
+    "confidence_score": 80,
+    "confidence_summary": "Synonym match (semiya ↔ vermicelli) | Units matched after normalization (invoice pcs with 850g extracted→kg) | Vendor quantity < expected (expected 2 kg vs vendor 1.7 kg) | Packaging extracted from invoice name"
+  },
+  {
+    "batch_item": {
+      "id": 34445,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 10,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Fortune Sun Lite Rf Sf Oil 1ltr",
+      "quantity": 10,
+      "unit": "ltr",
+      "rate": 145,
+      "total_price": 1450,
+      "gst": {
+        "rate": 5,
+        "amount": 73
+      }
+    },
+    "actual_cost": 1523,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Core product match (cooking oil ↔ oil) | Units match (ltr) | Quantity exact match (expected 10 ltr vs vendor 10 ltr) | Brand ignored"
+  },
+  {
+    "batch_item": {
+      "id": 34446,
+      "product_name": "Dettol",
+      "order_item_quantity": 1,
+      "product_quantity": 500,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No matching invoice line for Dettol (no dettol/disinfectant antiseptic liquid found) | Unit/quantity not applicable | Missing item | Invoice contains Domex/Clinzal/Lizol-like cleaners but not Dettol"
+  },
+  {
+    "batch_item": {
+      "id": 34447,
+      "product_name": "Shampoo (Sachet)",
+      "order_item_quantity": 2,
+      "product_quantity": 200,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "product_name": "Clinic Plus Shampo 1/-",
+      "quantity": 400,
+      "unit": "pcs",
+      "rate": 0.85,
+      "total_price": 340,
+      "gst": {
+        "rate": 5,
+        "amount": 2
+      }
+    },
+    "actual_cost": 342,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Core product match (shampoo sachet ↔ shampoo) | Units normalized (NO→pcs) | Quantity exact match (expected 400 pcs vs vendor 400 pcs) | Assumed 'NO' denotes count of sachets"
+  },
+  {
+    "batch_item": {
+      "id": 34448,
+      "product_name": "Tooth Brush",
+      "order_item_quantity": 2,
+      "product_quantity": 10,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "product_name": "Pepsodent Toothbrush Med F+",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 18.0975,
+      "total_price": 361.95,
+      "gst": {
+        "rate": 5,
+        "amount": 18
+      }
+    },
+    "actual_cost": 380,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Exact/core product match (tooth brush ↔ toothbrush) | Units normalized (NO→pcs) | Quantity exact match (expected 20 pcs vs vendor 20 pcs) | Clean line item"
+  },
+  {
+    "batch_item": {
+      "id": 34449,
+      "product_name": "Colgate Tooth Paste",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Closeup Paste 17g 10/-",
+      "quantity": 10,
+      "unit": "pcs",
+      "rate": 9.044,
+      "total_price": 90.44,
+      "gst": {
+        "rate": 5,
+        "amount": 5
+      }
+    },
+    "actual_cost": 95,
+    "match_status": "matched",
+    "confidence_score": 75,
+    "confidence_summary": "Core product match (tooth paste ↔ paste) but brand mismatch (Colgate vs Closeup) | Units normalized (No→pcs) | Quantity exact match (expected 10 pcs vs vendor 10 pcs) | Possible ambiguity with other toothpaste brands not present"
+  },
+  {
+    "batch_item": {
+      "id": 34450,
+      "product_name": "Toor Dal",
+      "order_item_quantity": 10,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Thour Dhal 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 150,
+      "total_price": 1500,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 1500,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Fuzzy/synonym match (toor ↔ thoor; dal ↔ dhal) | Units match (kg) | Quantity exact match (expected 10 kg vs vendor 10 kg) | Minor OCR/spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 34451,
+      "product_name": "Harpic",
+      "order_item_quantity": 2,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No matching invoice line for Harpic | Unit/quantity not applicable | Missing item | Invoice has toilet cleaners (Domex/Clinzal) but not Harpic brand/product explicitly"
+  },
+  {
+    "batch_item": {
+      "id": 34452,
+      "product_name": "Comfort Fabric Conditioner",
+      "order_item_quantity": 1,
+      "product_quantity": 860,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": "Ujala Fab Conditioner 900ml Bot",
+      "quantity": 0.9,
+      "unit": "ltr",
+      "rate": 210.2111111111111,
+      "total_price": 189.19,
+      "gst": {
+        "rate": 18,
+        "amount": 33
+      }
+    },
+    "actual_cost": 214,
+    "match_status": "matched",
+    "confidence_score": 75,
+    "confidence_summary": "Core product match (fabric conditioner) but brand mismatch (Comfort vs Ujala) | Units matched after normalization (ml→ltr; invoice pcs with 900ml extracted→ltr) | Vendor quantity > expected (expected 0.86 ltr vs vendor 0.9 ltr) | Packaging extracted from invoice name; minor OCR/price discrepancy"
+  },
+  {
+    "batch_item": {
+      "id": 34453,
+      "product_name": "Domex",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Domex Toilet Cleaner 475ml",
+      "quantity": 0.95,
+      "unit": "ltr",
+      "rate": 176.5157894736842,
+      "total_price": 167.69,
+      "gst": {
+        "rate": 18,
+        "amount": 30
+      }
+    },
+    "actual_cost": 208,
+    "match_status": "matched",
+    "confidence_score": 75,
+    "confidence_summary": "Brand+core product match (Domex) | Units matched after normalization (invoice pcs with 475ml extracted→ltr) | Vendor quantity < expected (expected 1 ltr vs vendor 0.95 ltr) | Packaging extracted from invoice name"
+  },
+  {
+    "batch_item": {
+      "id": 34454,
+      "product_name": "Lizol",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No matching invoice line for Lizol | Unit/quantity not applicable | Missing item | Invoice has Clinzal floor cleaner but not Lizol brand/product explicitly"
+  },
+  {
+    "batch_item": {
+      "id": 34455,
+      "product_name": "Stone + Table Salt",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Arun Crystal Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 12,
+      "total_price": 60,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 60,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Core product match (salt) | Units match (kg) | Quantity exact match (expected 5 kg vs vendor 5 kg) | Ambiguity: also 'Table Salt 1kg' line present"
+  },
+  {
+    "batch_item": {
+      "id": 34456,
+      "product_name": "Tamarind",
+      "order_item_quantity": 2,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Tamarind 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 175,
+      "total_price": 350,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 350,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact/core product match (tamarind) | Units match (kg) | Quantity exact match (expected 2 kg vs vendor 2 kg) | Clean line item"
+  },
+  {
+    "batch_item": {
+      "id": 34457,
+      "product_name": "Puliogare Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 500,
+      "product_unit": "gms"
+    },
+    "vendor_item": {
+      "product_name": "Swastik Puliogare Mix 500g",
+      "quantity": 0.5,
+      "unit": "kg",
+      "rate": 377.14,
+      "total_price": 188.57,
+      "gst": {
+        "rate": 5,
+        "amount": 9
+      }
+    },
+    "actual_cost": 198,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Exact/core product match (puliogare) | Units matched after normalization (invoice pcs with 500g extracted→kg; batch g→kg) | Quantity exact match (expected 0.5 kg vs vendor 0.5 kg) | Packaging extracted from invoice name"
+  },
+  {
+    "batch_item": {
+      "id": 34459,
+      "product_name": "Suji/Rava",
+      "order_item_quantity": 2,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT White Soji 5 Kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 480,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 480,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Synonym match (suji/sooji ↔ soji; rava) | Units match (kg) | Quantity exact match (expected 10 kg vs vendor 10 kg) | Minor spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 34460,
+      "product_name": "Green Gram/Moong Dal",
+      "order_item_quantity": 3,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Green Moong 1kg",
+      "quantity": 6,
+      "unit": "kg",
+      "rate": 110,
+      "total_price": 660,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 660,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Core product match (green gram/moong) | Units match (kg) | Quantity exact match (expected 6 kg vs vendor 6 kg) | Clean line item"
+  },
+  {
+    "batch_item": {
+      "id": 34461,
+      "product_name": "Channa Dal",
+      "order_item_quantity": 3,
+      "product_quantity": 3,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Gram Dhal 1kg",
+      "quantity": 9,
+      "unit": "kg",
+      "rate": 110,
+      "total_price": 990,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 990,
+    "match_status": "matched",
+    "confidence_score": 75,
+    "confidence_summary": "Fuzzy/synonym match assumed (channa dal ↔ gram dhal) | Units match (kg) | Quantity exact match (expected 9 kg vs vendor 9 kg) | Potential product ambiguity (could refer to roasted gram vs chana dal)"
+  },
+  {
+    "batch_item": {
+      "id": 34462,
+      "product_name": "Jeera",
+      "order_item_quantity": 2,
+      "product_quantity": 400,
+      "product_unit": "gms"
+    },
+    "vendor_item": {
+      "product_name": "Jeera 100g",
+      "quantity": 0.8,
+      "unit": "kg",
+      "rate": 400,
+      "total_price": 320,
+      "gst": {
+        "rate": 5,
+        "amount": 16
+      }
+    },
+    "actual_cost": 336,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Exact/core product match (jeera/cumin) | Units matched after normalization (invoice pcs with 100g extracted→kg; batch g→kg) | Quantity exact match (expected 0.8 kg vs vendor 0.8 kg) | Packaging extracted from invoice name"
+  },
+  {
+    "batch_item": {
+      "id": 34463,
+      "product_name": "Phenyle",
+      "order_item_quantity": 2,
+      "product_quantity": 5,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Germisol Black Phenyle 500ml",
+      "quantity": 10,
+      "unit": "ltr",
+      "rate": 151.354,
+      "total_price": 1513.54,
+      "gst": {
+        "rate": 18,
+        "amount": 272
+      }
+    },
+    "actual_cost": 1786,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Exact/core product match (phenyle) | Units matched after normalization (invoice pcs with 500ml extracted→ltr) | Quantity exact match (expected 10 ltr vs vendor 10 ltr) | Packaging extracted from invoice name"
+  },
+  {
+    "batch_item": {
+      "id": 34464,
+      "product_name": "Detergent Powder",
+      "order_item_quantity": 2,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Morelight Det Powder 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 59.189,
+      "total_price": 591.89,
+      "gst": {
+        "rate": 18,
+        "amount": 107
+      }
+    },
+    "actual_cost": 699,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Core product match (detergent powder) | Units match (kg) | Quantity exact match (expected 10 kg vs vendor 10 kg) | Minor OCR in brand name"
+  },
+  {
+    "batch_item": {
+      "id": 34465,
+      "product_name": "Washing Liquid ( Rin/surfexcel/tide)",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Moreligh Det Liquid 1ltr",
+      "quantity": 4,
+      "unit": "ltr",
+      "rate": 79.705,
+      "total_price": 318.82,
+      "gst": {
+        "rate": 18,
+        "amount": 57
+      }
+    },
+    "actual_cost": 376,
+    "match_status": "matched",
+    "confidence_score": 90,
+    "confidence_summary": "Core product match (washing/detergent liquid) | Units matched after normalization (invoice pcs with 1ltr extracted→ltr) | Quantity exact match (expected 4 ltr vs vendor 4 ltr) | Packaging extracted from invoice name; minor OCR in product name"
+  },
+  {
+    "batch_item": {
+      "id": 34466,
+      "product_name": "Coffee Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Bayar’s Coffee 500g",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 609.72,
+      "total_price": 609.72,
+      "gst": {
+        "rate": 5,
+        "amount": 30
+      }
+    },
+    "actual_cost": 640,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Core product match (coffee powder ↔ coffee) | Units matched after normalization (invoice pcs with 500g extracted→kg) | Quantity exact match (expected 1 kg vs vendor 1 kg) | Packaging extracted from invoice name"
+  },
+  {
+    "batch_item": {
+      "id": 34467,
+      "product_name": "Red Chilli",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Stemless Chilly 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 380,
+      "total_price": 380,
+      "gst": {
+        "rate": 5,
+        "amount": 19
+      }
+    },
+    "actual_cost": 399,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Core product match (red chilli ↔ chilly/chilli) | Units match (kg) | Quantity exact match (expected 1 kg vs vendor 1 kg) | Minor spelling variation"
+  }
+]

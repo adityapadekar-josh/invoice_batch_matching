@@ -1,0 +1,122 @@
+[
+  {
+    "batch_item": {
+      "id": 19084,
+      "product_name": "Sugar",
+      "order_item_quantity": 5,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Sugar",
+      "quantity": 60,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 2880,
+      "gst": {
+        "rate": 5,
+        "amount": 120
+      }
+    },
+    "actual_cost": 2520,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Exact name match (Sugar) | Unit match after normalization (kg) | Vendor quantity 60 kg > expected 50 kg (invoice covers more) | Rate derived from invoice total/vendor qty | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 19085,
+      "product_name": "Toor Dal",
+      "order_item_quantity": 51,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Toor dal",
+      "quantity": 52,
+      "unit": "kg",
+      "rate": 145,
+      "total_price": 7540,
+      "gst": {
+        "rate": 5,
+        "amount": 370
+      }
+    },
+    "actual_cost": 7760,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Exact/core name match (Toor Dal) | Unit match after normalization (kg) | Vendor quantity 52 kg > expected 51 kg (invoice covers more) | Rate derived from invoice total/vendor qty | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 19086,
+      "product_name": "Rice",
+      "order_item_quantity": 9,
+      "product_quantity": 25,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Rice",
+      "quantity": 234,
+      "unit": "kg",
+      "rate": 59,
+      "total_price": 13806,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 13275,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Exact name match (Rice) | Unit match after normalization (kg) | Vendor quantity 234 kg > expected 225 kg (invoice covers more) | Rate derived from invoice total/vendor qty | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 19087,
+      "product_name": "Wheat Flour",
+      "order_item_quantity": 4,
+      "product_quantity": 20,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Atta",
+      "quantity": 80,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 3840,
+      "gst": {
+        "rate": 5,
+        "amount": 192
+      }
+    },
+    "actual_cost": 4032,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Synonym/core product match (Wheat Flour ≈ Atta) | Unit match after normalization (kg) | Exact quantity match (80 kg) | Rate derived from invoice total/vendor qty | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 19088,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 52,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Sunpure oil",
+      "quantity": 53,
+      "unit": "ltr",
+      "rate": 165,
+      "total_price": 8745,
+      "gst": {
+        "rate": 5,
+        "amount": 429
+      }
+    },
+    "actual_cost": 9009,
+    "match_status": "matched",
+    "confidence_score": 70,
+    "confidence_summary": "Core product match (Cooking Oil ↔ oil; brand present on invoice) | Unit match after normalization (ltr) | Vendor quantity 53 ltr > expected 52 ltr (invoice covers more) | Rate derived from invoice total/vendor qty | Clean invoice data"
+  }
+]

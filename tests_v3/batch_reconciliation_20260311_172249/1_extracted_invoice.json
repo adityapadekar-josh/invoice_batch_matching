@@ -1,0 +1,53 @@
+{
+  "vendor_name": "Udarvis Technologies Opc Private Limited",
+  "invoice_number": "2024-25/2899",
+  "invoice_date": "2025-01-14",
+  "due_date": "2025-02-13",
+  "line_items": [
+    {
+      "product_name": "Sunpure oil",
+      "quantity": 53,
+      "unit": "ltr",
+      "unit_price": 165,
+      "total_price": 8745,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Rice",
+      "quantity": 234,
+      "unit": "kg",
+      "unit_price": 59,
+      "total_price": 13806,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Sugar",
+      "quantity": 60,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 2880,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Toor dal",
+      "quantity": 52,
+      "unit": "kg",
+      "unit_price": 145,
+      "total_price": 7540,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Atta",
+      "quantity": 80,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 3840,
+      "gst_rate": 5
+    }
+  ],
+  "subtotal": 36811,
+  "gst_amount": 1150.26,
+  "total_amount": 37961.26,
+  "payment_terms": "Net 30",
+  "notes": "Thanks for your business. I/We hereby declare and certify that the food/foods mentioned in the invoice are warranted to be of the nature and quality which they purport to be."
+}

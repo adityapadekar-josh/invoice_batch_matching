@@ -1,0 +1,1058 @@
+[
+  {
+    "batch_item": {
+      "id": 41090,
+      "product_name": "Channa Gram/Kadale Kallu",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No suitable invoice line found for core product (chana gram/kadale kallu) | Unit: n/a | Quantity: n/a | No match | Invoice data ok"
+  },
+  {
+    "batch_item": {
+      "id": 41088,
+      "product_name": "Green Gram/Moong Dal",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Green Moong 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 120,
+      "total_price": 240,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 240,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match (green gram = green moong/moong) | Unit match after normalization (kg) | Quantity exact match (2 kg vs 2 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41089,
+      "product_name": "Halsande Gram",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No suitable invoice line found for core product (halsande gram) | Unit: n/a | Quantity: n/a | No match | Invoice data ok"
+  },
+  {
+    "batch_item": {
+      "id": 41091,
+      "product_name": "Horse Gram",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Horse Gram 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 115,
+      "total_price": 230,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 230,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact/core product match (horse gram) | Unit match (kg) | Quantity exact match (2 kg vs 2 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41092,
+      "product_name": "Fried Gram",
+      "order_item_quantity": 1,
+      "product_quantity": 3,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Puffed Gram 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 110,
+      "total_price": 550,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 330,
+    "match_status": "matched",
+    "confidence_score": 81,
+    "confidence_summary": "Fuzzy/core match (fried gram ~ puffed gram) | Unit match (kg) | Vendor quantity greater than expected (5 kg > 3 kg) | Likely invoice covers extra quantity | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41094,
+      "product_name": "Brown Channa",
+      "order_item_quantity": 1,
+      "product_quantity": 3,
+      "product_unit": "KG"
+    },
+    "vendor_item": {
+      "product_name": "IT Black Channa 1kg",
+      "quantity": 3,
+      "unit": "kg",
+      "rate": 110,
+      "total_price": 330,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 330,
+    "match_status": "matched",
+    "confidence_score": 92,
+    "confidence_summary": "Core product match (brown channa ~ black channa) | Unit match after normalization (kg) | Quantity exact match (3 kg vs 3 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41093,
+      "product_name": "Groundnut Seed",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Groundnuts 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "rate": 145,
+      "total_price": 580,
+      "gst": {
+        "rate": 5,
+        "amount": 15
+      }
+    },
+    "actual_cost": 305,
+    "match_status": "matched",
+    "confidence_score": 82,
+    "confidence_summary": "Core product match (groundnut) | Unit match (kg) | Vendor quantity greater than expected (4 kg > 2 kg) | Likely invoice covers multiple batch lines (duplicate groundnut in order) | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41125,
+      "product_name": "Harpic",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No suitable invoice line found for core product (harpic) | Unit: n/a | Quantity: n/a | No match | Invoice data ok"
+  },
+  {
+    "batch_item": {
+      "id": 41126,
+      "product_name": "Dettol",
+      "order_item_quantity": 1,
+      "product_quantity": 500,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No suitable invoice line found for core product (dettol) | Unit: n/a | Quantity: n/a | No match | Invoice data ok"
+  },
+  {
+    "batch_item": {
+      "id": 41128,
+      "product_name": "Lizol",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No suitable invoice line found for core product (lizol) | Unit: n/a | Quantity: n/a | No match | Invoice data ok"
+  },
+  {
+    "batch_item": {
+      "id": 41129,
+      "product_name": "Domex",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No suitable invoice line found for core product (domex) | Unit: n/a | Quantity: n/a | No match | Invoice data ok"
+  },
+  {
+    "batch_item": {
+      "id": 41127,
+      "product_name": "Phenyle",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Germisol Black Phenyle 500ml",
+      "quantity": 2,
+      "unit": "ltr",
+      "rate": 151.355,
+      "total_price": 302.71,
+      "gst": {
+        "rate": 18,
+        "amount": 136
+      }
+    },
+    "actual_cost": 893,
+    "match_status": "matched",
+    "confidence_score": 70,
+    "confidence_summary": "Core product match (phenyle) | Unit matched after packaging extraction (500 ml per pcs => ltr) | Vendor quantity less than expected (2 ltr < 5 ltr) | Packaging extracted from invoice name (500ml) | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41109,
+      "product_name": "Ragi Flour",
+      "order_item_quantity": 2,
+      "product_quantity": 20,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Ragi Flour 5kg",
+      "quantity": 40,
+      "unit": "kg",
+      "rate": 55,
+      "total_price": 2200,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 2200,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Core product match (ragi flour) | Unit match (kg) | Quantity exact match (40 kg vs 40 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41110,
+      "product_name": "Maida",
+      "order_item_quantity": 2,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Maida 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 46,
+      "total_price": 460,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 460,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact/core product match (maida) | Unit match (kg) | Quantity exact match (10 kg vs 10 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41111,
+      "product_name": "Gram flour/Besan 5kgs",
+      "order_item_quantity": 2,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Bassin 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 95,
+      "total_price": 950,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 950,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Fuzzy/synonym match (besan = basin/bassin) | Unit match (kg) | Quantity exact match (10 kg vs 10 kg) | Batch name contains redundant size text '5kgs' (ignored) | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41112,
+      "product_name": "Rice Flour",
+      "order_item_quantity": 2,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Rice Flour 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 45,
+      "total_price": 450,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 450,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact/core product match (rice flour) | Unit match (kg) | Quantity exact match (10 kg vs 10 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41113,
+      "product_name": "Rice",
+      "order_item_quantity": 4,
+      "product_quantity": 25,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Shirdi Gold Rice 26kg",
+      "quantity": 104,
+      "unit": "kg",
+      "rate": 58,
+      "total_price": 6032,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 5800,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Core product match (rice) | Unit match (kg) | Vendor quantity greater than expected (104 kg > 100 kg) | Pack size text '26kg' treated as descriptor; invoice likely totals in kg | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41114,
+      "product_name": "Sugar",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Sugar 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 44,
+      "total_price": 440,
+      "gst": {
+        "rate": 5,
+        "amount": 22
+      }
+    },
+    "actual_cost": 462,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Core product match (sugar) | Unit match (kg) | Quantity exact match (10 kg vs 10 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41115,
+      "product_name": "Jaggery",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Jaggery 5 Kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 62,
+      "total_price": 620,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 620,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact/core product match (jaggery) | Unit match (kg) | Quantity exact match (10 kg vs 10 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41116,
+      "product_name": "Stone + Table Salt 5Kgs",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Arun Crystal Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 12,
+      "total_price": 60,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 60,
+    "match_status": "matched",
+    "confidence_score": 82,
+    "confidence_summary": "Core product match (salt) but invoice has two salt lines (crystal salt & table salt) | Unit match (kg) | Quantity exact match (5 kg vs 5 kg) | Ambiguity: 2 possible salt matches; picked crystal salt | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41108,
+      "product_name": "Black Eye Bean",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No suitable invoice line found for core product (black eye bean / cowpea) | Unit: n/a | Quantity: n/a | No match | Invoice data ok"
+  },
+  {
+    "batch_item": {
+      "id": 41117,
+      "product_name": "Coffee Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Mathas Coffee Enrich 500g",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 416.195,
+      "total_price": 832.39,
+      "gst": {
+        "rate": 5,
+        "amount": 21
+      }
+    },
+    "actual_cost": 437,
+    "match_status": "matched",
+    "confidence_score": 70,
+    "confidence_summary": "Core product match (coffee powder) | Unit matched after packaging extraction (500g per pcs => kg) | Vendor quantity equals expected after normalization (1 kg vs 1 kg) | Packaging extracted from invoice name (500g) | Minor OCR/price rounding variation"
+  },
+  {
+    "batch_item": {
+      "id": 41095,
+      "product_name": "Green Peas",
+      "order_item_quantity": 1,
+      "product_quantity": 3,
+      "product_unit": "KG"
+    },
+    "vendor_item": {
+      "product_name": "IT Green Peas 1kg",
+      "quantity": 3,
+      "unit": "kg",
+      "rate": 160,
+      "total_price": 480,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 480,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact/core product match (green peas) | Unit match after normalization (kg) | Quantity exact match (3 kg vs 3 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41096,
+      "product_name": "Bengal Gram",
+      "order_item_quantity": 1,
+      "product_quantity": 3,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Gram Dhal 1kg",
+      "quantity": 8,
+      "unit": "kg",
+      "rate": 110,
+      "total_price": 880,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 330,
+    "match_status": "matched",
+    "confidence_score": 80,
+    "confidence_summary": "Core product match (bengal gram/chana) vs invoice 'gram dhal' | Unit match (kg) | Vendor quantity greater than expected (8 kg > 3 kg) | Possible shared line for multiple gram items (gram & dal) | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41097,
+      "product_name": "Dosa Rice",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Dosa Rice 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 40,
+      "total_price": 400,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 400,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact/core product match (dosa rice) | Unit match (kg) | Quantity exact match (10 kg vs 10 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41098,
+      "product_name": "Idly Rice",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Idli Rice 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 480,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 480,
+    "match_status": "matched",
+    "confidence_score": 99,
+    "confidence_summary": "Exact/core product match (idly/idli rice) | Unit match (kg) | Quantity exact match (10 kg vs 10 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41099,
+      "product_name": "Poha 10Kgs",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Avalakki 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 70,
+      "total_price": 700,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 700,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Synonym match (poha = avalakki) | Unit match (kg) | Quantity exact match (10 kg vs 10 kg) | Batch name contains redundant size text '10Kgs' (ignored) | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41100,
+      "product_name": "Puffed Rice",
+      "order_item_quantity": 1,
+      "product_quantity": 6,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Deep Gold Puffed Rice 500g",
+      "quantity": 6,
+      "unit": "kg",
+      "rate": 100,
+      "total_price": 600,
+      "gst": {
+        "rate": 5,
+        "amount": 30
+      }
+    },
+    "actual_cost": 630,
+    "match_status": "matched",
+    "confidence_score": 90,
+    "confidence_summary": "Core product match (puffed rice) | Unit matched after packaging extraction (500g per pcs => kg) | Quantity exact match (6 kg vs 6 kg) | Packaging extracted from invoice name (500g) | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41101,
+      "product_name": "Urud Dal",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Urid Dhal 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 138,
+      "total_price": 276,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 276,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Fuzzy spelling match (urud/urid, dal/dhal) | Unit match (kg) | Quantity exact match (2 kg vs 2 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41102,
+      "product_name": "Channa Dal",
+      "order_item_quantity": 1,
+      "product_quantity": 3,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Gram Dhal 1kg",
+      "quantity": 8,
+      "unit": "kg",
+      "rate": 110,
+      "total_price": 880,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 330,
+    "match_status": "matched",
+    "confidence_score": 77,
+    "confidence_summary": "Core product match (chana dal ~ gram dal) | Unit match (kg) | Vendor quantity greater than expected (8 kg > 3 kg) | Possible shared line for multiple gram/chana items | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41103,
+      "product_name": "Moong Dal",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Moong Dhal 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 130,
+      "total_price": 260,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 260,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Exact/core product match (moong dal) | Unit match (kg) | Quantity exact match (2 kg vs 2 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41104,
+      "product_name": "Bengal Gram Dal",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Gram Dhal 1kg",
+      "quantity": 8,
+      "unit": "kg",
+      "rate": 110,
+      "total_price": 880,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 220,
+    "match_status": "matched",
+    "confidence_score": 77,
+    "confidence_summary": "Core product match (bengal gram dal ~ gram dal) | Unit match (kg) | Vendor quantity greater than expected (8 kg > 2 kg) | Possible shared line for multiple gram/chana items | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41105,
+      "product_name": "Mysore Dal",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Masore Dhal 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 100,
+      "total_price": 200,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 200,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Fuzzy spelling match (mysore/masore, dal/dhal) | Unit match (kg) | Quantity exact match (2 kg vs 2 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41106,
+      "product_name": "Brown Bean",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No suitable invoice line found for core product (brown bean) | Unit: n/a | Quantity: n/a | No match | Invoice data ok"
+  },
+  {
+    "batch_item": {
+      "id": 41107,
+      "product_name": "Kabuli Chana (White Chana)",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Kabuli Channa 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 135,
+      "total_price": 270,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 270,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Core product match (kabuli chana/white chana) | Unit match (kg) | Quantity exact match (2 kg vs 2 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41118,
+      "product_name": "Tea Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Wagbhakri Tea 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 260,
+      "total_price": 260,
+      "gst": {
+        "rate": 5,
+        "amount": 13
+      }
+    },
+    "actual_cost": 273,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Core product match (tea powder/tea) | Unit match (kg) | Quantity exact match (1 kg vs 1 kg) | Brand differs but acceptable | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41119,
+      "product_name": "Vim Gel",
+      "order_item_quantity": 1,
+      "product_quantity": 900,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": "Pril Liq Dishwash 225ml",
+      "quantity": 0.9,
+      "unit": "ltr",
+      "rate": 200.94444444444446,
+      "total_price": 180.85,
+      "gst": {
+        "rate": 18,
+        "amount": 33
+      }
+    },
+    "actual_cost": 214,
+    "match_status": "matched",
+    "confidence_score": 70,
+    "confidence_summary": "Core product match (dishwash gel/liquid; vim vs pril is brand mismatch) | Unit matched after packaging extraction (225ml per pcs => ltr) | Quantity exact match after normalization (0.9 ltr vs 0.9 ltr) | Packaging extracted from invoice name (225ml) | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41120,
+      "product_name": "Washing Liquid ( Rin/surfexcel/tide)",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Henko Matic Liquid FL 1ltr",
+      "quantity": 2,
+      "unit": "ltr",
+      "rate": 140.895,
+      "total_price": 281.79,
+      "gst": {
+        "rate": 18,
+        "amount": 51
+      }
+    },
+    "actual_cost": 384,
+    "match_status": "matched",
+    "confidence_score": 88,
+    "confidence_summary": "Core product match (washing liquid/detergent liquid) | Unit matched after packaging extraction (1 ltr per pcs => ltr) | Quantity exact match (2 ltr vs 2 ltr) | Packaging extracted from invoice name (1ltr) | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41121,
+      "product_name": "Comfort Fabric Conditioner",
+      "order_item_quantity": 1,
+      "product_quantity": 860,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No suitable invoice line found for core product (comfort fabric conditioner); invoice has 'Ujala Fab Conditioner 1ltr' but size/brand/price ambiguity too high vs required 860ml | Unit: n/a | Quantity: n/a | No match | Invoice data ok"
+  },
+  {
+    "batch_item": {
+      "id": 41122,
+      "product_name": "Bansi Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Bansi Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 240,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 240,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Synonym match (rava/sooji/soji) with bansi | Unit match (kg) | Quantity exact match (5 kg vs 5 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41124,
+      "product_name": "Toor Dal",
+      "order_item_quantity": 9,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Thour Dhal 1kg",
+      "quantity": 9,
+      "unit": "kg",
+      "rate": 135,
+      "total_price": 1215,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 1215,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Fuzzy spelling match (toor/thour, dal/dhal) | Unit match (kg) | Quantity exact match (9 kg vs 9 kg) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41130,
+      "product_name": "Detergent Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Morelight Bar 150g 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 8.216,
+      "total_price": 164.32,
+      "gst": {
+        "rate": 18,
+        "amount": 30
+      }
+    },
+    "actual_cost": 194,
+    "match_status": "matched",
+    "confidence_score": 83,
+    "confidence_summary": "Core product match (detergent soap/bar) | Unit match after normalization (No -> pcs) | Quantity exact match (20 pcs vs 20 pcs) | Ambiguity: 2 possible bars (Morelight vs Exo); selected Morelight as detergent bar | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41131,
+      "product_name": "Vim Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Exo Bar 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 8.47,
+      "total_price": 169.4,
+      "gst": {
+        "rate": 18,
+        "amount": 30
+      }
+    },
+    "actual_cost": 200,
+    "match_status": "matched",
+    "confidence_score": 88,
+    "confidence_summary": "Core product match (dishwash soap/bar; vim vs exo brand mismatch) | Unit match after normalization (No -> pcs) | Quantity exact match (20 pcs vs 20 pcs) | No special handling | Invoice line clear"
+  },
+  {
+    "batch_item": {
+      "id": 41123,
+      "product_name": "Groundnut Seed",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Groundnuts 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "rate": 145,
+      "total_price": 580,
+      "gst": {
+        "rate": 5,
+        "amount": 15
+      }
+    },
+    "actual_cost": 305,
+    "match_status": "matched",
+    "confidence_score": 82,
+    "confidence_summary": "Core product match (groundnut) | Unit match (kg) | Vendor quantity greater than expected (4 kg > 2 kg) | Likely invoice covers multiple batch lines (duplicate groundnut in order) | Invoice line clear"
+  }
+]

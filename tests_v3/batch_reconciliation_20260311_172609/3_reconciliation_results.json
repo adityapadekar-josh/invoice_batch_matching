@@ -1,0 +1,266 @@
+[
+  {
+    "batch_item": {
+      "id": 35660,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 20,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Gold Winner Ref Sf Oil 1ltr",
+      "quantity": 10,
+      "unit": "ltr",
+      "rate": 165,
+      "total_price": 1650,
+      "gst": {
+        "rate": 5,
+        "amount": 165
+      }
+    },
+    "actual_cost": 3465,
+    "match_status": "matched",
+    "confidence_score": 72,
+    "confidence_summary": "Core product match (cooking oil ↔ oil) with brand present on invoice | Unit matched via packaging extraction (1 ltr per pcs) → ltr | Vendor qty 10 ltr < expected 20 ltr (under-delivery vs order) | Invoice line uses pcs with 1ltr in name | Clean data"
+  },
+  {
+    "batch_item": {
+      "id": 35664,
+      "product_name": "Idly Rice",
+      "order_item_quantity": 2,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Idli Rice 1kg",
+      "quantity": 20,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 960,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 960,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact/core product match (idly/idli rice) | Unit matches (kg) | Quantity exact match (expected 20 kg = vendor 20 kg) | No special handling | Clean data"
+  },
+  {
+    "batch_item": {
+      "id": 35665,
+      "product_name": "Rice",
+      "order_item_quantity": 3,
+      "product_quantity": 25,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Isha Bullet Rice 26kg",
+      "quantity": 78,
+      "unit": "kg",
+      "rate": 58,
+      "total_price": 4524,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 4350,
+    "match_status": "matched",
+    "confidence_score": 80,
+    "confidence_summary": "Core product match (rice ↔ rice); type/brand differs (bullet/isha) | Unit matches (kg) | Vendor qty 78 kg > expected 75 kg (invoice has extra) | Packaging text 26kg ignored as redundant (unit already kg) | Clean data"
+  },
+  {
+    "batch_item": {
+      "id": 35666,
+      "product_name": "Ragi Flour",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Ragi Flour 5kg",
+      "quantity": 20,
+      "unit": "kg",
+      "rate": 55,
+      "total_price": 1100,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 1100,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact/core product match (ragi flour) | Unit matches (kg) | Quantity exact match (expected 20 kg = vendor 20 kg) | Packaging 5kg ignored as redundant (unit already kg) | Clean data"
+  },
+  {
+    "batch_item": {
+      "id": 35658,
+      "product_name": "Vim Gel",
+      "order_item_quantity": 2,
+      "product_quantity": 900,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No match: invoice has 'Pril Liq Dishwash 425ml' (different core product/brand; no Vim gel item) | Unit not applicable | Quantity not applicable | No special handling | Clean data"
+  },
+  {
+    "batch_item": {
+      "id": 35659,
+      "product_name": "Rin Bar Soap",
+      "order_item_quantity": 10,
+      "product_quantity": 1,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "product_name": "Rin Bar 10/-",
+      "quantity": 10,
+      "unit": "pcs",
+      "rate": 9.234,
+      "total_price": 92.34,
+      "gst": {
+        "rate": 5,
+        "amount": 5
+      }
+    },
+    "actual_cost": 97,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact match (rin bar soap ↔ rin bar) | Unit matched after normalization (NO→pcs, pcs) | Quantity exact match (expected 10 pcs = vendor 10 pcs) | No special handling | Clean data"
+  },
+  {
+    "batch_item": {
+      "id": 35661,
+      "product_name": "Toor Dal",
+      "order_item_quantity": 10,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Thour Dhal 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 135,
+      "total_price": 1350,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 1350,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Fuzzy/synonym match (toor dal ↔ thoor dhal; OCR/spelling variation) | Unit matches (kg) | Quantity exact match (expected 10 kg = vendor 10 kg) | No special handling | Minor OCR/spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 35662,
+      "product_name": "Vim Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "total_price": null,
+      "gst": {
+        "rate": null,
+        "amount": null
+      }
+    },
+    "actual_cost": null,
+    "match_status": "missing",
+    "confidence_score": 0,
+    "confidence_summary": "No match: invoice does not contain Vim soap/bar; closest is Exo Bar (different core product) | Unit not applicable | Quantity not applicable | No special handling | Clean data"
+  },
+  {
+    "batch_item": {
+      "id": 35663,
+      "product_name": "Urud Dal",
+      "order_item_quantity": 5,
+      "product_quantity": 2,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Urid Dhal 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 135,
+      "total_price": 1350,
+      "gst": {
+        "rate": 0,
+        "amount": 0
+      }
+    },
+    "actual_cost": 1350,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Fuzzy/synonym match (urud/urad ↔ urid dhal; spelling variation) | Unit matches (kg) | Quantity exact match (expected 10 kg = vendor 10 kg) | No special handling | Minor OCR/spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 35667,
+      "product_name": "Plastic Broom/Broom",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Plastic Broom",
+      "quantity": 4,
+      "unit": "pcs",
+      "rate": 160,
+      "total_price": 640,
+      "gst": {
+        "rate": 5,
+        "amount": 32
+      }
+    },
+    "actual_cost": 672,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact match (plastic broom) | Unit matched after normalization (No→pcs, pcs) | Quantity exact match (expected 4 pcs = vendor 4 pcs) | No special handling | Clean data"
+  },
+  {
+    "batch_item": {
+      "id": 35668,
+      "product_name": "Sugar",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Sugar 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 44,
+      "total_price": 440,
+      "gst": {
+        "rate": 5,
+        "amount": 22
+      }
+    },
+    "actual_cost": 462,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact match (sugar) | Unit matches (kg) | Quantity exact match (expected 10 kg = vendor 10 kg) | Packaging 5kg ignored as redundant (unit already kg) | Clean data"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "batch_id": 1510,
+  "invoice_url": "https://assets.thekindkart.org/invoice/89/invoice_20250220_062000.pdf",
+  "start_time": "2026-03-11T17:21:15.749178",
+  "end_time": "2026-03-11T17:22:49.145394",
+  "duration_seconds": 93.396216,
+  "batch_items_count": 40,
+  "invoice_items_count": 42,
+  "reconciliation_results_count": 40,
+  "status": "completed"
+}

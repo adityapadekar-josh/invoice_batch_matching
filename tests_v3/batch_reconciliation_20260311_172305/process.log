@@ -1,0 +1,62 @@
+
+============================================================
+ BATCH INVOICE RECONCILIATION PROCESS
+============================================================
+
+Process started at: 2026-03-11 17:23:05
+Batch ID: 1426
+Invoice URL: https://assets.thekindkart.org/invoice/13/2024-252899.pdf
+
+============================================================
+ STEP 1: INVOICE DATA EXTRACTION
+============================================================
+
+Invoice URL: https://assets.thekindkart.org/invoice/13/2024-252899.pdf
+Invoking OpenAI API for invoice extraction...
+Extraction completed in 5.01 seconds
+✓ Saved file: tests_v3/batch_reconciliation_20260311_172305/1_extracted_invoice.json
+
+Invoice extraction summary:
+  - Invoice number: 2024-25/2899
+  - Line items extracted: 5
+
+============================================================
+ STEP 2: FETCHING BATCH ITEMS FROM DATABASE
+============================================================
+
+Batch ID: 1426
+Executing database query...
+✓ Saved file: tests_v3/batch_reconciliation_20260311_172305/2_fetched_batch_items.json
+
+Database query summary:
+  - Records retrieved: 3
+
+============================================================
+ STEP 3: BATCH–INVOICE RECONCILIATION
+============================================================
+
+Batch items count: 3
+Invoice items count: 5
+Invoking OpenAI API for reconciliation...
+Reconciliation completed in 6.66 seconds
+✓ Saved file: tests_v3/batch_reconciliation_20260311_172305/3_reconciliation_results.json
+
+Reconciliation summary:
+  - Total records processed: 3
+  - Successfully matched: 0
+  - Unmatched or discrepant: 3
+✓ Saved file: tests_v3/batch_reconciliation_20260311_172305/0_metadata.json
+
+============================================================
+ PROCESS COMPLETED SUCCESSFULLY
+============================================================
+
+Total duration: 11.70 seconds
+Output directory: tests_v3/batch_reconciliation_20260311_172305
+
+Files generated:
+  - 0_metadata.json
+  - 1_extracted_invoice.json
+  - 2_fetched_batch_items.json
+  - 3_reconciliation_results.json
+  - process.log

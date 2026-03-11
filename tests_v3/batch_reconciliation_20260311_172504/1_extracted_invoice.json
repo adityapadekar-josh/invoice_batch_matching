@@ -1,0 +1,173 @@
+{
+  "vendor_name": "GAYATHRI ASSOCIATES",
+  "invoice_number": "12546GA25/26",
+  "invoice_date": "2025-12-11",
+  "due_date": null,
+  "line_items": [
+    {
+      "product_name": "IT Jaggery 5 Kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 62,
+      "total_price": 620,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Arun Crystal Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 12,
+      "total_price": 60,
+      "gst_rate": null
+    },
+    {
+      "product_name": "I Shakthi Table Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 14,
+      "total_price": 70,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Sugar 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 44,
+      "total_price": 440,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Isha Bullet Rice 26kg",
+      "quantity": 26,
+      "unit": "kg",
+      "unit_price": 58,
+      "total_price": 1508,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Gold Winner Ref Sf Oil 1ltr",
+      "quantity": 28,
+      "unit": "pcs",
+      "unit_price": 160,
+      "total_price": 4480,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "IT Thour Dhal 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 130,
+      "total_price": 1300,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Closeup Paste 17g 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 9.52,
+      "total_price": 180.88,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Pepsodent Toothbrush Med F+",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 19.05,
+      "total_price": 361.95,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Clinic Plus Shampo 1/-",
+      "quantity": 400,
+      "unit": "pcs",
+      "unit_price": 0.95,
+      "total_price": 361,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Vivel Soap10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 9.52,
+      "total_price": 180.88,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Ujala Fab Conditioner 900ml Bot",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 199.15,
+      "total_price": 378.39,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Vim Dishwash Liquid Lemon 500ml",
+      "quantity": 4,
+      "unit": "pcs",
+      "unit_price": 105.93,
+      "total_price": 402.53,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Henko Matic Liquid FL 1ltr",
+      "quantity": 4,
+      "unit": "pcs",
+      "unit_price": 148.31,
+      "total_price": 563.58,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Wagbhakri Tea 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 260,
+      "total_price": 260,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Bayar’s Coffee 500g",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 314.29,
+      "total_price": 597.15,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "IT Idli Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 240,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT White Soji 5 Kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 240,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Bansi Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 50,
+      "total_price": 250,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Chiroti Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 240,
+      "gst_rate": null
+    }
+  ],
+  "subtotal": 12734.36,
+  "gst_amount": 585.1,
+  "total_amount": 13319,
+  "payment_terms": "30 Days",
+  "notes": "IGST 585.10; Round Off (-)0.46; Rs. in words: Rupees Thirteen Thousand Three Hundred Nineteen Only"
+}

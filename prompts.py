@@ -123,21 +123,37 @@ raw_vendor_quantity = quantity × packaging_quantity
 
 PHASE C — UNIT NORMALIZATION (MANDATORY)
 
-Unit Conversion Standards:
-- If the unit represents mass or weight, convert it to kg.
-- If the unit represents volume, convert it to ltr.
-- If the unit represents a count or quantity of items, convert it to pcs.
+Unit Conversion Standards (apply to ALL unit fields in both inputs):
+- MASS → convert to kg:
+    kg                         → kg (×1)
+    g, gm, gms, gram, grams    → kg (÷1000)
+- VOLUME → convert to ltr:
+    ltr, l, litre, litres      → ltr (×1)
+    ml, mL, ML                 → ltr (÷1000)
+- COUNT → convert to pcs:
+    pcs, pc, piece, pieces     → pcs (×1)
+    no, nos, No, Nos, NO       → pcs (×1)
+    dozen                      → pcs (×12)
+    vials                      → pcs (×1)
+    pack (no size in name)     → pcs (×1)
+
+Any unrecognized unit that is clearly a mass unit → treat as kg.
+Any unrecognized unit that is clearly a volume unit → treat as ltr.
+Any unrecognized unit that is clearly a count unit → treat as pcs.
 
 After conversion, define:
 For batch items:
 expected_quantity = normalized raw_expected_quantity
+(This includes any packaging extracted from the batch product_name in Phase A.)
 
 For invoice items:
 vendor_quantity = normalized raw_vendor_quantity
+(This includes any packaging extracted from the invoice product_name in Phase A.)
 
 IMPORTANT:
-- expected_quantity and vendor_quantity MUST always be normalized values.
-- ALL comparisons, matching logic, vendor_rate calculations, and actual_cost calculations MUST use ONLY these normalized quantities.
+- expected_quantity and vendor_quantity MUST always be normalized values, computed AFTER all three phases (A, B, C) for BOTH inputs.
+- Both values are post-packaging-extraction, post-normalization — never raw field values.
+- ALL comparisons, matching logic, rate calculations, and actual_cost calculations MUST use ONLY these normalized quantities.
 - Never compare or calculate using unnormalized values.
 
 REFERENCE EXAMPLES (Strictly follow this logic)
@@ -226,19 +242,21 @@ A batch item is considered MATCHED if:
 2. Units are compatible after normalization
 
 MATCH STATUS:
-- "matched"       — name match found AND units are compatible after normalization
-- "missing"       — no name match found in the invoice for this batch item
-- "incorrect_match" — a name match exists but units are fundamentally incompatible and no conversion is possible (e.g., kg vs pcs)
+- "matched"
+- "missing"
+- "incorrect_match"
 
 
 --------------------------------------------------------
 SECTION 4: VENDOR RATE CALCULATION
 --------------------------------------------------------
-vendor_rate = total_vendor_price / vendor_quantity
+rate = total_vendor_price / vendor_quantity
 
 Where:
 - total_vendor_price = final cost from matched invoice line item(s)
 - vendor_quantity = invoice quantity normalized to standard units (kg, ltr, or pcs)
+
+(This value is stored as "rate" in the vendor_item output object.)
 
 
 --------------------------------------------------------
@@ -246,7 +264,7 @@ SECTION 5: ACTUAL COST DEFINITION & CALCULATION
 --------------------------------------------------------
 This is the total vendor cost for the expected quantity, inclusive of tax.
 
-vendor_cost = vendor_rate × expected_quantity
+vendor_cost = rate × expected_quantity
 gst_amount = (vendor_cost × gst_rate) / 100  (if gst_rate is known, else 0)
 actual_cost = vendor_cost + gst_amount
 
@@ -254,9 +272,10 @@ actual_cost = vendor_cost + gst_amount
 - Round actual_cost to nearest integer using standard rounding (half-up).
 
 When match_status is "missing" or "incorrect_match":
-- Set actual_cost = null
-- Set all vendor_item fields to null
-- Explain in confidence_summary
+- actual_cost MUST be JSON null — NOT 0, NOT an empty string, NOT omitted
+- ALL vendor_item fields MUST be JSON null, including nested gst: { "rate": null, "amount": null }
+- confidence_score MUST be 0
+- Explain the reason in confidence_summary
 
 DETAILED EXAMPLES:
 
@@ -277,7 +296,7 @@ Invoice item:
 
 Calculations:
   expected_quantity = 2 × 1 kg = 2 kg
-  vendor_rate = 560 / 2 kg = 280 per kg
+  rate = 560 / 2 kg = 280 per kg
   vendor_cost = 280 × 2 kg = 560
   gst_amount = (560 × 5) / 100 = 28
   actual_cost = 560 + 28 = 588
@@ -299,7 +318,7 @@ Invoice item:
   
 Calculations:
   expected_quantity = 2 × 500 gm = 1000 gm = 1 kg (normalized)
-  vendor_rate = 580 / 1 kg = 580 per kg
+  rate = 580 / 1 kg = 580 per kg
   vendor_cost = 580 × 1 kg = 580
   gst_amount = (580 × 0) / 100 = 0
   actual_cost = 580 + 0 = 580
@@ -323,7 +342,7 @@ Calculations:
   Packaging: 20 Ltr per bottle
   expected_quantity = 2 × 10 × 20 ltr = 400 ltr (normalized)
   vendor_quantity = 20 pcs × 20 ltr = 400 ltr (normalized)
-  vendor_rate = 420 / 400 ltr = 1.05 per ltr
+  rate = 420 / 400 ltr = 1.05 per ltr
   vendor_cost = 1.05 × 400 ltr = 420
   gst_amount = (420 × 10) / 100 = 42
   actual_cost = 420 + 42 = 462
@@ -339,27 +358,54 @@ STEP 2 — APPLY DEDUCTIONS (in this order)
 A) QUANTITY MATCH (MANDATORY NORMALIZED COMPARISON)
 
 CRITICAL RULE — QUANTITY COMPARISON:
-Quantity comparison MUST ONLY use:
-- expected_quantity (normalized value from Section 1)
-- vendor_quantity (normalized value from Section 1)
+Quantity comparison MUST ONLY use the FINAL normalized values:
+- expected_quantity (from Section 1, after Phase A + B + C, INCLUDING packaging extraction from batch product_name)
+- vendor_quantity  (from Section 1, after Phase A + B + C, INCLUDING packaging extraction from invoice product_name)
 
 You MUST NOT compare:
 - order_item_quantity directly to invoice quantity
 - product_quantity directly to invoice quantity
-- Any unnormalized values
+- Any unnormalized or pre-packaging-extraction values from either input
+
+PACKAGING EXTRACTION RULE (VERY IMPORTANT):
+Packaging info must be extracted from BOTH the batch product_name AND the invoice product_name
+(Phase A applies to both). Both expected_quantity and vendor_quantity must reflect this
+extraction before comparison.
+
+Example A — packaging extracted from invoice name only:
+  Batch:   product_name="Puffed Rice", order_item_quantity=1, product_quantity=6, product_unit=kg
+    Phase A: no packaging in name (unit is kg → specific)
+    Phase B: raw_expected_quantity = 1 × 6 = 6
+    Phase C: already kg → expected_quantity = 6 kg
+  Invoice: product_name="Deep Gold Puffed Rice 500g", quantity=12, unit=pcs
+    Phase A: extract 500g = 0.5 kg per pcs from invoice name (unit is pcs → generic)
+    Phase B: raw_vendor_quantity = 12 × 0.5 = 6
+    Phase C: normalize to kg → vendor_quantity = 6 kg
+  Comparison: 6 kg vs 6 kg → EXACT MATCH, -0 points
+
+Example B — packaging extracted from batch name only:
+  Batch:   product_name="Chana Dal - 500gm pkt", order_item_quantity=3, product_quantity=1, product_unit=pkt
+    Phase A: extract 500gm from name (unit is pkt → generic)
+    Phase B: raw_expected_quantity = 3 × 1 × 500 = 1500
+    Phase C: normalize gm→kg → expected_quantity = 1.5 kg
+  Invoice: product_name="Chana Dal", quantity=1.5, unit=kg
+    Phase A: no packaging in name
+    Phase B: raw_vendor_quantity = 1.5 × 1 = 1.5
+    Phase C: already kg → vendor_quantity = 1.5 kg
+  Comparison: 1.5 kg vs 1.5 kg → EXACT MATCH, -0 points
+
+Raw pre-extraction field values are irrelevant for comparison once normalization is complete.
 
 QUANTITY DEDUCTION SCALE:
-- Exact match (≤1% difference): -0 points
-- Close match (>1–5% diff): -5 points
-- Acceptable (>5–10% diff): -10 points
-- Questionable (>10–20% diff): -20 points
-- Poor (>20% diff): -30 points
+- Exact match (expected_quantity == vendor_quantity): -0 points
+- vendor_quantity > expected_quantity (invoice has more than ordered): -15 points
+  (common when one invoice covers multiple batches — less severe)
+- vendor_quantity < expected_quantity (vendor delivered less than ordered): -25 points
+  (under-delivery — more severe)
 
-If normalized expected_quantity equals normalized vendor_quantity,
-you MUST classify it as:
-
-"Exact match"
-and apply 0 deduction.
+If expected_quantity equals vendor_quantity (both fully normalized via Phase A+B+C on their
+respective inputs), you MUST classify it as "Exact match" and apply 0 deduction — regardless
+of what the raw batch or invoice fields looked like before normalization.
 
 B) UNIT MATCH
 - Units match exactly: -0 points
@@ -398,7 +444,7 @@ Return a JSON ARRAY with this EXACT schema:
     },
     "vendor_item": {
       "product_name": string | null,
-      "quantity": number | null,
+      "quantity": number | null,   // vendor_quantity (normalized, post-packaging-extraction)
       "unit": "kg" | "ltr" | "pcs" | null,
       "rate": number | null,
       "total_price": number | null,

@@ -1,0 +1,74 @@
+[
+  {
+    "batch_item": {
+      "id": 19089,
+      "product_name": "Sugar",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Sugar",
+      "quantity": 60,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 2880,
+      "gst": {
+        "rate": 5,
+        "amount": 24
+      }
+    },
+    "actual_cost": 504,
+    "match_status": "matched",
+    "confidence_score": 84,
+    "confidence_summary": "Exact name match (Sugar) | Unit match after normalization (kg) | Vendor quantity 60 kg > expected 10 kg (invoice covers more than ordered) | Rate computed from invoice total/vendor qty | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 19090,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Sunpure oil",
+      "quantity": 53,
+      "unit": "ltr",
+      "rate": 165,
+      "total_price": 8745,
+      "gst": {
+        "rate": 5,
+        "amount": 8
+      }
+    },
+    "actual_cost": 173,
+    "match_status": "matched",
+    "confidence_score": 80,
+    "confidence_summary": "Core product match (Cooking Oil ~ oil; brand differs) | Unit match after normalization (ltr) | Vendor quantity 53 ltr > expected 1 ltr (invoice covers more than ordered) | Rate computed from invoice total/vendor qty | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 19091,
+      "product_name": "Toor Dal",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Toor dal",
+      "quantity": 52,
+      "unit": "kg",
+      "rate": 145,
+      "total_price": 7540,
+      "gst": {
+        "rate": 5,
+        "amount": 7
+      }
+    },
+    "actual_cost": 152,
+    "match_status": "matched",
+    "confidence_score": 84,
+    "confidence_summary": "Exact name match (Toor Dal) | Unit match after normalization (kg) | Vendor quantity 52 kg > expected 1 kg (invoice covers more than ordered) | Rate computed from invoice total/vendor qty | Clean invoice data"
+  }
+]

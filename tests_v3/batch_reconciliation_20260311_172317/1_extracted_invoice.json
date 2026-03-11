@@ -1,0 +1,293 @@
+{
+  "vendor_name": "GAYATHRI ASSOCIATES",
+  "invoice_number": "13950GA25/26",
+  "invoice_date": "2026-01-13",
+  "due_date": null,
+  "line_items": [
+    {
+      "product_name": "Shirdi Gold Rice 26kg",
+      "quantity": 104,
+      "unit": "kg",
+      "unit_price": 58,
+      "total_price": 6032,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Bansi Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 240,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Morelight Bar 150g 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 8.47,
+      "total_price": 164.32,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Exo Bar 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 8.47,
+      "total_price": 169.4,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Germisol Black Phenyle 500ml",
+      "quantity": 4,
+      "unit": "pcs",
+      "unit_price": 79.66,
+      "total_price": 302.71,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "IT Idli Rice 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 480,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Avalakki 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 70,
+      "total_price": 700,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Deep Gold Puffed Rice 500g",
+      "quantity": 12,
+      "unit": "pcs",
+      "unit_price": 50,
+      "total_price": 600,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "IT Dosa Rice 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 40,
+      "total_price": 400,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Sugar 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 44,
+      "total_price": 440,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "IT Jaggery 5 Kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 62,
+      "total_price": 620,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Arun Crystal Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 12,
+      "total_price": 60,
+      "gst_rate": null
+    },
+    {
+      "product_name": "I Shakthi Table Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 14,
+      "total_price": 70,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Wagbhakri Tea 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 260,
+      "total_price": 260,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Mathas Coffee Enrich 500g",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 438.1,
+      "total_price": 832.39,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Pril Liq Dishwash 225ml",
+      "quantity": 4,
+      "unit": "pcs",
+      "unit_price": 46.61,
+      "total_price": 180.85,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Henko Matic Liquid FL 1ltr",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 148.31,
+      "total_price": 281.79,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Ujala Fab Conditioner 1ltr Pkt",
+      "quantity": 1,
+      "unit": "pcs",
+      "unit_price": 211.86,
+      "total_price": 201.27,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Groundnuts 1kg",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 145,
+      "total_price": 580,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "IT Thour Dhal 1kg",
+      "quantity": 9,
+      "unit": "kg",
+      "unit_price": 135,
+      "total_price": 1215,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Black Channa 1kg",
+      "quantity": 3,
+      "unit": "kg",
+      "unit_price": 110,
+      "total_price": 330,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Green Peas 1kg",
+      "quantity": 3,
+      "unit": "kg",
+      "unit_price": 160,
+      "total_price": 480,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Gram Dhal 1kg",
+      "quantity": 8,
+      "unit": "kg",
+      "unit_price": 110,
+      "total_price": 880,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Red Karamani 1kg",
+      "quantity": 6,
+      "unit": "kg",
+      "unit_price": 145,
+      "total_price": 870,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Horse Gram 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "unit_price": 115,
+      "total_price": 230,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Green Moong 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "unit_price": 120,
+      "total_price": 240,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Puffed Gram 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 110,
+      "total_price": 550,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Moong Dhal 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "unit_price": 130,
+      "total_price": 260,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Masore Dhal 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "unit_price": 100,
+      "total_price": 200,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Kabuli Channa 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "unit_price": 135,
+      "total_price": 270,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Urid Dhal 1kg",
+      "quantity": 2,
+      "unit": "kg",
+      "unit_price": 138,
+      "total_price": 276,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Ragi Flour 5kg",
+      "quantity": 40,
+      "unit": "kg",
+      "unit_price": 55,
+      "total_price": 2200,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Maida 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 46,
+      "total_price": 460,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Bassin 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 95,
+      "total_price": 950,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Rice Flour 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 45,
+      "total_price": 450,
+      "gst_rate": null
+    }
+  ],
+  "subtotal": 22475.73,
+  "gst_amount": 369.68,
+  "total_amount": 22845,
+  "payment_terms": null,
+  "notes": "IGST 369.68; Round Off (-)0.41; Dispatched through ARUN/PARASHURAM; Motor Vehicle No. KA03AK5189"
+}
