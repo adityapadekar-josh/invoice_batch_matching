@@ -46,7 +46,7 @@ def get_db_connection():
 def create_run_folder() -> Path:
     """Create a timestamped folder for this run."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    folder_path = Path(f"tests/batch_reconciliation_{timestamp}")
+    folder_path = Path(f"tests_v2/batch_reconciliation_{timestamp}")
     folder_path.mkdir(exist_ok=True)
     return folder_path
 
@@ -276,54 +276,38 @@ def process_batch_invoice(batch_id: int, invoice_url: str):
 
 
 if __name__ == "__main__":
-    BATCH_ID = 2470
-    INVOICE_URL = (
-     "https://assets.thekindkart.org/invoice/1591/invoice_20250919_183642.pdf"
-    )
+    # BATCH_ID = 978
+    # INVOICE_URL = (
+    #  "https://assets.thekindkart.org/invoice/754/invoice_20250616_122802.pdf"
+    # )
 
-    process_batch_invoice(BATCH_ID, INVOICE_URL)
+    # process_batch_invoice(BATCH_ID, INVOICE_URL)
 
-"""
-Invoice-to-KindKart Item Matching – Test logs
+    tests = [
+        {"batch_id": 1703, "invoice_url": "https://assets.thekindkart.org/invoice/251/invoice_20250411_174741.pdf"},
+        {"batch_id": 978,  "invoice_url": "https://assets.thekindkart.org/invoice/754/invoice_20250616_122802.pdf"},
+        {"batch_id": 1601, "invoice_url": "https://assets.thekindkart.org/invoice/195/invoice_20250319_151230.pdf"},
+        {"batch_id": 1990, "invoice_url": "https://assets.thekindkart.org/invoice/770/invoice_20250616_183939.pdf"},
+        {"batch_id": 1982, "invoice_url": "https://assets.thekindkart.org/invoice/768/invoice_20250616_183255.pdf"},
+        {"batch_id": 134,  "invoice_url": "https://assets.thekindkart.org/invoice/134/invoice_20250226_105752.pdf"},
+        {"batch_id": 2642, "invoice_url": "https://assets.thekindkart.org/invoice/1764/invoice_20251029_114646.pdf"},
+        {"batch_id": 2470, "invoice_url": "https://assets.thekindkart.org/invoice/1591/invoice_20250919_183642.pdf"},
+        {"batch_id": 1509, "invoice_url": "https://assets.thekindkart.org/invoice/80/invoice_20250218_132612.pdf"},
+        {"batch_id": 1499, "invoice_url": "https://assets.thekindkart.org/invoice/79/invoice_20250218_130412.pdf"},
+        {"batch_id": 1511, "invoice_url": "https://assets.thekindkart.org/invoice/89/invoice_20250220_062000.pdf"},
+        {"batch_id": 1510, "invoice_url": "https://assets.thekindkart.org/invoice/89/invoice_20250220_062000.pdf"},
+        {"batch_id": 1425, "invoice_url": "https://assets.thekindkart.org/invoice/13/2024-252899.pdf"},
+        {"batch_id": 1426, "invoice_url": "https://assets.thekindkart.org/invoice/13/2024-252899.pdf"},
+        {"batch_id": 3112, "invoice_url": "https://assets.thekindkart.org/invoice/2180/invoice_20260116_124028.pdf"},
+        {"batch_id": 2946, "invoice_url": "https://assets.thekindkart.org/invoice/2046/invoice_20251219_130113.pdf"},
+        {"batch_id": 2860, "invoice_url": "https://assets.thekindkart.org/invoice/1896/invoice_20251122_171604.pdf"},
+        {"batch_id": 2751, "invoice_url": "https://assets.thekindkart.org/invoice/1896/invoice_20251122_171604.pdf"},
+    ]
 
-Test 1: 20260204_141540
-Batch Id: 1601
-Invoice url: https://assets.thekindkart.org/invoice/195/invoice_20250319_151230.pdf
-Run completed in 113.19 seconds
+    for test in tests:
+        print("\n\n" + "#" * 80)
+        print(f"Starting test for batch ID {test['batch_id']}")
+        print("#" * 80 + "\n")
+        process_batch_invoice(test["batch_id"], test["invoice_url"])
 
-Test 2: 20260204_141928
-Batch Id: 1703
-Invoice url: https://assets.thekindkart.org/invoice/251/invoice_20250411_174741.pdf
-Run completed in 178.96 seconds
 
-Test 3: 20260204_142340
-Batch Id: 978
-Invoice url: https://assets.thekindkart.org/invoice/754/invoice_20250616_122802.pdf
-Run completed in 78.98 seconds
-
-Test 4: 20260204_142625
-Batch Id: 1990
-Invoice url: https://assets.thekindkart.org/invoice/770/invoice_20250616_183939.pdf
-Run completed in 139.16 seconds
-
-Test 5: 20260204_143135
-Batch Id: 1982
-Invoice url: https://assets.thekindkart.org/invoice/768/invoice_20250616_183255.pdf
-Run completed in 106.37 seconds
-
-Test 6: 20260204_143500
-Batch Id: 134
-Invoice url: https://assets.thekindkart.org/invoice/134/invoice_20250226_105752.pdf
-Run completed in 84.45 seconds
-
-Test 7: 20260204_143719
-Batch Id: 2642
-Invoice url: https://assets.thekindkart.org/invoice/1764/invoice_20251029_114646.pdf
-Run completed in 78.30 seconds
-
-Test 8: 20260204_144001
-Batch Id: 2470
-Invoice url: https://assets.thekindkart.org/invoice/1591/invoice_20250919_183642.pdf
-Run completed in 116.61 seconds
-
-"""

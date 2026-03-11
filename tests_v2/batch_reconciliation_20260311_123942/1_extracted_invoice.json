@@ -1,0 +1,197 @@
+{
+  "vendor_name": "GAYATHRI ASSOCIATES",
+  "invoice_number": "97186A2425",
+  "invoice_date": "2025-02-15",
+  "due_date": null,
+  "line_items": [
+    {
+      "product_name": "Nima Washing Powder 1kg",
+      "quantity": 5,
+      "unit": "pcs",
+      "unit_price": 60,
+      "total_price": 300,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Sabena 450g",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 12.71,
+      "total_price": 127.1,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Nova Milk Powder 1kg",
+      "quantity": 1,
+      "unit": "pcs",
+      "unit_price": 360,
+      "total_price": 360,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Milky Mist Ghee 1ltr",
+      "quantity": 1,
+      "unit": "ltr",
+      "unit_price": 650.89,
+      "total_price": 650.89,
+      "gst_rate": 12
+    },
+    {
+      "product_name": "Cinth Plus Shampoo 1/-",
+      "quantity": 200,
+      "unit": "pcs",
+      "unit_price": 0.85,
+      "total_price": 170,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Vivel Cool Mint Soap 10/-",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 8.47,
+      "total_price": 84.7,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Closeup Tooth Paste 175g",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 8.47,
+      "total_price": 84.7,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Wagh Bakri Tea 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 244.76,
+      "total_price": 244.76,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Mathas Coffee Gold 500g",
+      "quantity": 1,
+      "unit": "pcs",
+      "unit_price": 371.43,
+      "total_price": 371.43,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "777 Bullet Rice 26kg",
+      "quantity": 78,
+      "unit": "kg",
+      "unit_price": 52,
+      "total_price": 4056,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "IT Maida 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 46,
+      "total_price": 230,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "IT Bassin 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 98,
+      "total_price": 490,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "IT Rice Flour 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 240,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "IT Ragi Flour 5kg",
+      "quantity": 20,
+      "unit": "kg",
+      "unit_price": 58,
+      "total_price": 1160,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Fortune F/ola Sf Oil 1ltr",
+      "quantity": 6,
+      "unit": "ltr",
+      "unit_price": 140,
+      "total_price": 840,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Wheel Soap 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 8.47,
+      "total_price": 169.4,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Exo Bar 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 8.47,
+      "total_price": 169.4,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "IT Atta 5kg",
+      "quantity": 20,
+      "unit": "kg",
+      "unit_price": 40,
+      "total_price": 800,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Sugar 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 45,
+      "total_price": 450,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "IT Jaggery 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 65,
+      "total_price": 650,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Arun Crystal Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 12,
+      "total_price": 60,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "IT Thour Dhal 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 175,
+      "total_price": 1750,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Shakti Table Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 14,
+      "total_price": 70,
+      "gst_rate": 0
+    }
+  ],
+  "subtotal": 13899.81,
+  "gst_amount": 408.94,
+  "total_amount": 14308.75,
+  "payment_terms": null,
+  "notes": "Rs. in words: Rupees Fourteen Thousand Three Hundred Eight and Seventy Five paise Only."
+}

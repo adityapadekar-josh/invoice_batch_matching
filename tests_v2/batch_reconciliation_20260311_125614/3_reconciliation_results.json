@@ -1,0 +1,458 @@
+[
+  {
+    "batch_item": {
+      "id": 38613,
+      "product_name": "Coffee Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Bayar’s Coffee 500g",
+      "quantity": 2,
+      "unit": "kg",
+      "rate": 597.15,
+      "total_price": 597.15,
+      "gst": {
+        "rate": 5,
+        "amount": 30
+      }
+    },
+    "actual_cost": 627,
+    "match_status": "matched",
+    "confidence_score": 90,
+    "confidence_summary": "Core product match (coffee powder ≈ coffee) | Unit matched after packaging normalization (2 pcs × 500g = 1kg) | Exact match (expected 1kg vs vendor 1kg) | Extracted pack size 500g from name | Minor OCR/brand variation"
+  },
+  {
+    "batch_item": {
+      "id": 38614,
+      "product_name": "Tea Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Wagbhakri Tea 1kg",
+      "quantity": 1,
+      "unit": "kg",
+      "rate": 260,
+      "total_price": 260,
+      "gst": {
+        "rate": 5,
+        "amount": 13
+      }
+    },
+    "actual_cost": 273,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match (tea powder ≈ tea) | Units match (kg) | Exact match (expected 1kg vs vendor 1kg) | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38615,
+      "product_name": "Idly Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Idli Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 240,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 240,
+    "match_status": "matched",
+    "confidence_score": 98,
+    "confidence_summary": "Exact/synonym match (idly rava ≈ idli soji) | Units match (kg) | Exact match (expected 5kg vs vendor 5kg) | Synonym normalization (rava/soji) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38616,
+      "product_name": "Suji/Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT White Soji 5 Kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 240,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 240,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Core product match (suji/rava ≈ soji) | Units match (kg) | Exact match (expected 5kg vs vendor 5kg) | Synonym normalization (rava/soji) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38617,
+      "product_name": "Bansi Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Bansi Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 50,
+      "total_price": 250,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 250,
+    "match_status": "matched",
+    "confidence_score": 99,
+    "confidence_summary": "Exact match (bansi rava ≈ bansi soji) | Units match (kg) | Exact match (expected 5kg vs vendor 5kg) | Synonym normalization (rava/soji) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38618,
+      "product_name": "Chiroti Rava",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Chiroti Soji 5kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 240,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 240,
+    "match_status": "matched",
+    "confidence_score": 99,
+    "confidence_summary": "Exact match (chiroti rava ≈ chiroti soji) | Units match (kg) | Exact match (expected 5kg vs vendor 5kg) | Synonym normalization (rava/soji) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38619,
+      "product_name": "Sugar",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Sugar 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 44,
+      "total_price": 440,
+      "gst": {
+        "rate": 5,
+        "amount": 22
+      }
+    },
+    "actual_cost": 462,
+    "match_status": "matched",
+    "confidence_score": 70,
+    "confidence_summary": "Exact match (sugar) | Units match (kg) | Poor match (expected 10kg vs vendor 10kg?) after normalization is exact, but invoice pricing indicates 10kg billed at 44/kg while name suggests 5kg pack; treated as kg quantity as given | Packaging text ignored as redundant/ambiguous since unit already kg | Invoice data packaging inconsistency"
+  },
+  {
+    "batch_item": {
+      "id": 38620,
+      "product_name": "Jaggery",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Jaggery 5 Kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 62,
+      "total_price": 620,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 620,
+    "match_status": "matched",
+    "confidence_score": 85,
+    "confidence_summary": "Core product match (jaggery) | Units match (kg) | Exact match (expected 10kg vs vendor 10kg) | Packaging text (5kg) treated as redundant/ambiguous since invoice unit already kg | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38621,
+      "product_name": "Stone + Table Salt",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Arun Crystal Salt 1kg",
+      "quantity": 5,
+      "unit": "kg",
+      "rate": 12,
+      "total_price": 60,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 60,
+    "match_status": "matched",
+    "confidence_score": 80,
+    "confidence_summary": "Core product match (stone/crystal salt ≈ salt) | Units match (kg) | Exact match (expected 5kg vs vendor 5kg) | Multi-item batch name; matched to one of two salt lines | Ambiguity: 2 possible matches (crystal salt vs table salt)"
+  },
+  {
+    "batch_item": {
+      "id": 38622,
+      "product_name": "Rice",
+      "order_item_quantity": 1,
+      "product_quantity": 25,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Isha Bullet Rice 26kg",
+      "quantity": 26,
+      "unit": "kg",
+      "rate": 58,
+      "total_price": 1508,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 1450,
+    "match_status": "matched",
+    "confidence_score": 77,
+    "confidence_summary": "Core product match (rice) | Units match (kg) | Close match (expected 25kg vs vendor 26kg; 3.85% diff) | Used vendor_rate from 26kg line to cost expected 25kg | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38604,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 28,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Gold Winner Ref Sf Oil 1ltr",
+      "quantity": 28,
+      "unit": "ltr",
+      "rate": 160,
+      "total_price": 4480,
+      "gst": {
+        "rate": 5,
+        "amount": 224
+      }
+    },
+    "actual_cost": 4704,
+    "match_status": "matched",
+    "confidence_score": 92,
+    "confidence_summary": "Core product match (cooking oil ≈ oil) | Unit matched after packaging normalization (28 pcs × 1ltr = 28ltr) | Exact match (expected 28ltr vs vendor 28ltr) | Extracted 1ltr from name; invoice unit pcs treated as containers | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38605,
+      "product_name": "Toor Dal",
+      "order_item_quantity": 10,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "IT Thour Dhal 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 130,
+      "total_price": 1300,
+      "gst": {
+        "rate": null,
+        "amount": 0
+      }
+    },
+    "actual_cost": 1300,
+    "match_status": "matched",
+    "confidence_score": 94,
+    "confidence_summary": "Fuzzy/synonym match (toor dal ≈ thour dhal) | Units match (kg) | Exact match (expected 10kg vs vendor 10kg) | Spelling variation handled | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38606,
+      "product_name": "Shampoo (Sachet)",
+      "order_item_quantity": 2,
+      "product_quantity": 200,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "product_name": "Clinic Plus Shampo 1/-",
+      "quantity": 400,
+      "unit": "pcs",
+      "rate": 0.9025,
+      "total_price": 361,
+      "gst": {
+        "rate": 5,
+        "amount": 18
+      }
+    },
+    "actual_cost": 379,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Core product match (shampoo sachet ≈ shampoo) | Units match after normalization (NO→pcs) | Exact match (expected 400pcs vs vendor 400pcs) | No special handling | Minor OCR truncation (shampo)"
+  },
+  {
+    "batch_item": {
+      "id": 38607,
+      "product_name": "Bathing Soap",
+      "order_item_quantity": 2,
+      "product_quantity": 10,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Vivel Soap10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 9.044,
+      "total_price": 180.88,
+      "gst": {
+        "rate": 5,
+        "amount": 9
+      }
+    },
+    "actual_cost": 190,
+    "match_status": "matched",
+    "confidence_score": 96,
+    "confidence_summary": "Core product match (bathing soap ≈ soap) | Units match after normalization (No→pcs) | Exact match (expected 20pcs vs vendor 20pcs) | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38608,
+      "product_name": "Colgate Tooth Paste",
+      "order_item_quantity": 2,
+      "product_quantity": 10,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Closeup Paste 17g 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 9.044,
+      "total_price": 180.88,
+      "gst": {
+        "rate": 5,
+        "amount": 9
+      }
+    },
+    "actual_cost": 190,
+    "match_status": "matched",
+    "confidence_score": 88,
+    "confidence_summary": "Core product match (tooth paste ≈ paste) with brand mismatch (colgate vs closeup) | Units match after normalization (No→pcs) | Exact match (expected 20pcs vs vendor 20pcs) | Brand deemphasized | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38609,
+      "product_name": "Tooth Brush",
+      "order_item_quantity": 2,
+      "product_quantity": 10,
+      "product_unit": "NO"
+    },
+    "vendor_item": {
+      "product_name": "Pepsodent Toothbrush Med F+",
+      "quantity": 20,
+      "unit": "pcs",
+      "rate": 18.0975,
+      "total_price": 361.95,
+      "gst": {
+        "rate": 5,
+        "amount": 18
+      }
+    },
+    "actual_cost": 380,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Exact match (tooth brush ≈ toothbrush) | Units match after normalization (NO→pcs) | Exact match (expected 20pcs vs vendor 20pcs) | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38610,
+      "product_name": "Vim Gel",
+      "order_item_quantity": 2,
+      "product_quantity": 900,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": "Vim Dishwash Liquid Lemon 500ml",
+      "quantity": 4,
+      "unit": "ltr",
+      "rate": 201.265,
+      "total_price": 402.53,
+      "gst": {
+        "rate": 18,
+        "amount": 65
+      }
+    },
+    "actual_cost": 427,
+    "match_status": "matched",
+    "confidence_score": 75,
+    "confidence_summary": "Core product match (vim gel ≈ vim dishwash liquid) | Unit matched after packaging normalization (4 pcs × 500ml = 2ltr; batch 2×900ml=1.8ltr) | Questionable (expected 1.8ltr vs vendor 2ltr; 11.11% diff) | Extracted 500ml from name; invoice unit pcs treated as containers | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38611,
+      "product_name": "Washing Liquid ( Rin/surfexcel/tide)",
+      "order_item_quantity": 2,
+      "product_quantity": 2,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Henko Matic Liquid FL 1ltr",
+      "quantity": 4,
+      "unit": "ltr",
+      "rate": 140.895,
+      "total_price": 563.58,
+      "gst": {
+        "rate": 18,
+        "amount": 101
+      }
+    },
+    "actual_cost": 734,
+    "match_status": "matched",
+    "confidence_score": 90,
+    "confidence_summary": "Core product match (washing liquid ≈ matic liquid detergent) | Unit matched after packaging normalization (4 pcs × 1ltr = 4ltr) | Exact match (expected 4ltr vs vendor 4ltr) | Extracted 1ltr from name; invoice unit pcs treated as containers | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 38612,
+      "product_name": "Comfort Fabric Conditioner",
+      "order_item_quantity": 2,
+      "product_quantity": 860,
+      "product_unit": "ML"
+    },
+    "vendor_item": {
+      "product_name": "Ujala Fab Conditioner 900ml",
+      "quantity": 2,
+      "unit": "ltr",
+      "rate": 210.2166666667,
+      "total_price": 378.39,
+      "gst": {
+        "rate": 18,
+        "amount": 65
+      }
+    },
+    "actual_cost": 426,
+    "match_status": "matched",
+    "confidence_score": 68,
+    "confidence_summary": "Core product match (fabric conditioner) with brand mismatch (comfort vs ujala) | Unit matched after packaging normalization (2 pcs × 900ml = 1.8ltr; batch 2×860ml=1.72ltr) | Acceptable (expected 1.72ltr vs vendor 1.8ltr; 4.65% diff) | Extracted 900ml from name; invoice unit pcs treated as containers | Clean invoice data"
+  }
+]

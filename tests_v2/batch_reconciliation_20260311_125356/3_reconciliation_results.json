@@ -1,0 +1,74 @@
+[
+  {
+    "batch_item": {
+      "id": 19089,
+      "product_name": "Sugar",
+      "order_item_quantity": 1,
+      "product_quantity": 10,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Sugar",
+      "quantity": 60,
+      "unit": "kg",
+      "rate": 48,
+      "total_price": 2880,
+      "gst": {
+        "rate": 5,
+        "amount": 24
+      }
+    },
+    "actual_cost": 504,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "EXACT MATCH | Units compatible (kg to kg) | Quantity match: Poor (>20% diff; expected 10 kg vs vendor 60 kg) | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 19090,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Sunpure oil",
+      "quantity": 53,
+      "unit": "ltr",
+      "rate": 165,
+      "total_price": 8745,
+      "gst": {
+        "rate": 5,
+        "amount": 8
+      }
+    },
+    "actual_cost": 173,
+    "match_status": "matched",
+    "confidence_score": 67,
+    "confidence_summary": "CORE PRODUCT MATCH (oil) | Units compatible (ltr to ltr) | Quantity match: Poor (>20% diff; expected 1 ltr vs vendor 53 ltr) | Mapped 'Cooking Oil' to invoice oil line | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 19091,
+      "product_name": "Toor Dal",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Toor dal",
+      "quantity": 52,
+      "unit": "kg",
+      "rate": 145,
+      "total_price": 7540,
+      "gst": {
+        "rate": 5,
+        "amount": 7
+      }
+    },
+    "actual_cost": 152,
+    "match_status": "matched",
+    "confidence_score": 67,
+    "confidence_summary": "EXACT MATCH | Units compatible (kg to kg) | Quantity match: Poor (>20% diff; expected 1 kg vs vendor 52 kg) | No special handling | Clean invoice data"
+  }
+]

@@ -1,0 +1,62 @@
+
+============================================================
+ BATCH INVOICE RECONCILIATION PROCESS
+============================================================
+
+Process started at: 2026-03-11 12:19:25
+Batch ID: 1601
+Invoice URL: https://assets.thekindkart.org/invoice/195/invoice_20250319_151230.pdf
+
+============================================================
+ STEP 1: INVOICE DATA EXTRACTION
+============================================================
+
+Invoice URL: https://assets.thekindkart.org/invoice/195/invoice_20250319_151230.pdf
+Invoking OpenAI API for invoice extraction...
+Extraction completed in 25.34 seconds
+✓ Saved file: tests_v2/batch_reconciliation_20260311_121925/1_extracted_invoice.json
+
+Invoice extraction summary:
+  - Invoice number: 2024-25/2973
+  - Line items extracted: 38
+
+============================================================
+ STEP 2: FETCHING BATCH ITEMS FROM DATABASE
+============================================================
+
+Batch ID: 1601
+Executing database query...
+✓ Saved file: tests_v2/batch_reconciliation_20260311_121925/2_fetched_batch_items.json
+
+Database query summary:
+  - Records retrieved: 39
+
+============================================================
+ STEP 3: BATCH–INVOICE RECONCILIATION
+============================================================
+
+Batch items count: 39
+Invoice items count: 38
+Invoking OpenAI API for reconciliation...
+Reconciliation completed in 86.90 seconds
+✓ Saved file: tests_v2/batch_reconciliation_20260311_121925/3_reconciliation_results.json
+
+Reconciliation summary:
+  - Total records processed: 39
+  - Successfully matched: 0
+  - Unmatched or discrepant: 39
+✓ Saved file: tests_v2/batch_reconciliation_20260311_121925/0_metadata.json
+
+============================================================
+ PROCESS COMPLETED SUCCESSFULLY
+============================================================
+
+Total duration: 112.26 seconds
+Output directory: tests_v2/batch_reconciliation_20260311_121925
+
+Files generated:
+  - 0_metadata.json
+  - 1_extracted_invoice.json
+  - 2_fetched_batch_items.json
+  - 3_reconciliation_results.json
+  - process.log

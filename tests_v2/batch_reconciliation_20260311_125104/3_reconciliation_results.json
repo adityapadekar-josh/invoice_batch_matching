@@ -1,0 +1,194 @@
+[
+  {
+    "batch_item": {
+      "id": 20164,
+      "product_name": "Floor Mop",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Floor Mop",
+      "quantity": 2,
+      "unit": "pcs",
+      "rate": 300,
+      "total_price": 600,
+      "gst": {
+        "rate": 12,
+        "amount": 72
+      }
+    },
+    "actual_cost": 672,
+    "match_status": "matched",
+    "confidence_score": 100,
+    "confidence_summary": "Exact match | Units compatible (count→pcs) | Exact match | No special handling | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 20165,
+      "product_name": "Plastic Broom/Broom",
+      "order_item_quantity": 1,
+      "product_quantity": 2,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Plastic Broom",
+      "quantity": 2,
+      "unit": "pcs",
+      "rate": 178,
+      "total_price": 356,
+      "gst": {
+        "rate": 12,
+        "amount": 43
+      }
+    },
+    "actual_cost": 399,
+    "match_status": "matched",
+    "confidence_score": 95,
+    "confidence_summary": "Core product match (broom) | Units compatible (count→pcs) | Exact match | Normalized name ('Plastic Broom/Broom'→'Plastic Broom') | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 20166,
+      "product_name": "Detergent Powder",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Detergent Powder",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 64,
+      "total_price": 640,
+      "gst": {
+        "rate": 18,
+        "amount": 58
+      }
+    },
+    "actual_cost": 378,
+    "match_status": "matched",
+    "confidence_score": 80,
+    "confidence_summary": "Exact match | Units match (kg) | Poor match (expected 5 kg vs vendor line 10 kg; 50% diff) | Vendor rate derived from invoice line total/qty | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 20167,
+      "product_name": "Sabena",
+      "order_item_quantity": 1,
+      "product_quantity": 5,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Sabeena Powder",
+      "quantity": 10,
+      "unit": "kg",
+      "rate": 29,
+      "total_price": 290,
+      "gst": {
+        "rate": 18,
+        "amount": 26
+      }
+    },
+    "actual_cost": 171,
+    "match_status": "matched",
+    "confidence_score": 65,
+    "confidence_summary": "Fuzzy/synonym match (Sabena≈Sabeena) | Units match (kg) | Poor match (expected 5 kg vs vendor line 10 kg; 50% diff) | Vendor rate derived from invoice line total/qty | Minor spelling variation"
+  },
+  {
+    "batch_item": {
+      "id": 20168,
+      "product_name": "Toor Dal",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "kg"
+    },
+    "vendor_item": {
+      "product_name": "Toor dal",
+      "quantity": 14,
+      "unit": "kg",
+      "rate": 165,
+      "total_price": 2310,
+      "gst": {
+        "rate": 5,
+        "amount": 8
+      }
+    },
+    "actual_cost": 173,
+    "match_status": "matched",
+    "confidence_score": 67,
+    "confidence_summary": "Exact match | Units match (kg) | Poor match (expected 1 kg vs vendor line 14 kg; 92.86% diff) | Vendor rate derived from invoice line total/qty | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 20169,
+      "product_name": "Detergent Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Detergent Bar",
+      "quantity": 40,
+      "unit": "pcs",
+      "rate": 8.2,
+      "total_price": 328,
+      "gst": {
+        "rate": 18,
+        "amount": 30
+      }
+    },
+    "actual_cost": 194,
+    "match_status": "matched",
+    "confidence_score": 65,
+    "confidence_summary": "Core product match (detergent bar/soap) | Units compatible (count→pcs) | Poor match (expected 20 pcs vs vendor line 40 pcs; 50% diff) | Treated 'bar' as detergent soap equivalent | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 20170,
+      "product_name": "Vim Soap",
+      "order_item_quantity": 1,
+      "product_quantity": 20,
+      "product_unit": "No"
+    },
+    "vendor_item": {
+      "product_name": "Dishwash Bar",
+      "quantity": 40,
+      "unit": "pcs",
+      "rate": 8.2,
+      "total_price": 328,
+      "gst": {
+        "rate": 18,
+        "amount": 30
+      }
+    },
+    "actual_cost": 194,
+    "match_status": "matched",
+    "confidence_score": 50,
+    "confidence_summary": "Fuzzy/core match (Vim soap≈dishwash bar; brand missing) | Units compatible (count→pcs) | Poor match (expected 20 pcs vs vendor line 40 pcs; 50% diff) | Matched to closest dishwash bar line (Vim gel is different form/unit) | Clean invoice data"
+  },
+  {
+    "batch_item": {
+      "id": 20171,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 1,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Sunpure oil",
+      "quantity": 16,
+      "unit": "ltr",
+      "rate": 165,
+      "total_price": 2640,
+      "gst": {
+        "rate": 5,
+        "amount": 8
+      }
+    },
+    "actual_cost": 173,
+    "match_status": "matched",
+    "confidence_score": 67,
+    "confidence_summary": "Core product match (cooking oil) | Units match (ltr) | Poor match (expected 1 ltr vs vendor line 16 ltr; 93.75% diff) | Brand deemphasized (Sunpure) | Clean invoice data"
+  }
+]

@@ -13,32 +13,31 @@ RULES (VERY IMPORTANT):
 - If a quantity is written like "500 gm", convert to 0.5 kg.
 - If a unit is missing but obvious from context, infer it.
 - Do NOT guess values that are not present.
+- If GST rate is present on the invoice, extract it; otherwise set to null.
+- There can be multiple GSTs for one line item, like CGST and SGST. If so, sum them up for the gst_rate field.
 
 RETURN THIS EXACT JSON SCHEMA:
 
 {
-"vendor_name": string | null,
-"invoice_number": string | null,
-"invoice_date": string | null,
-"due_date": string | null,
-"line_items": [
+  "vendor_name": string | null,
+  "invoice_number": string | null,
+  "invoice_date": string | null,
+  "due_date": string | null,
+  "line_items": [
     {
-    "product_name": string,
-    "quantity": number,
-    "unit": "kg" | "ltr" | "pcs",
-    "unit_price": number,
-    "total_price": number
+      "product_name": string,
+      "quantity": number,
+      "unit": "kg" | "ltr" | "pcs",
+      "unit_price": number,
+      "total_price": number,
+      "gst_rate": number | null
     }
-],
-"subtotal": number | null,
-"taxes": {
-    "cgst": number | null,
-    "sgst": number | null,
-    "igst": number | null
-},
-"total_amount": number | null,
-"payment_terms": string | null,
-"notes": string | null
+  ],
+  "subtotal": number | null,
+  "gst_amount": number | null,
+  "total_amount": number | null,
+  "payment_terms": string | null,
+  "notes": string | null
 }
 
 DOUBLE CHECK:
@@ -81,7 +80,8 @@ Vendor invoice data extracted via OCR/parsing:
       "quantity": number,
       "unit": string,                // kg, gm, ltr, ml, pcs, no, nos, dozen, vials, pack
       "unit_price": number,
-      "total_price": number
+      "total_price": number,
+      "gst_rate": number | null
     }
   ]
 }
@@ -244,10 +244,14 @@ Where:
 --------------------------------------------------------
 SECTION 5: ACTUAL COST DEFINITION & CALCULATION
 --------------------------------------------------------
-This represents the vendor cost for ONE order_item_quantity unit.
+This is the total vendor cost for the expected quantity, inclusive of tax.
 
-actual_cost = (vendor_rate × expected_quantity) / order_item_quantity
-This answers: "What did the vendor charge for ONE ordered unit?"
+vendor_cost = vendor_rate × expected_quantity
+gst_amount = (vendor_cost × gst_rate) / 100  (if gst_rate is known, else 0)
+actual_cost = vendor_cost + gst_amount
+
+- Round all GST amounts to nearest integer using standard rounding (half-up).
+- Round actual_cost to nearest integer using standard rounding (half-up).
 
 When units are incompatible and conversion is not possible:
 - Explain in confidence_summary
@@ -267,11 +271,14 @@ Invoice item:
   unit: "kg"
   unit_price: 280
   total_price: 560
+  gst_rate: 5
 
 Calculations:
   expected_quantity = 2 × 1 kg = 2 kg
   vendor_rate = 560 / 2 kg = 280 per kg
-  actual_cost = (280 × 2 kg) / 2 = 280
+  vendor_cost = 280 × 2 kg = 560
+  gst_amount = (560 × 5) / 100 = 28
+  actual_cost = 560 + 28 = 588
 
 Example 2: Unit conversion needed
 Batch item:
@@ -286,11 +293,14 @@ Invoice item:
   unit: "kg"
   unit_price: 580
   total_price: 580
-
+  gst_rate: 0
+  
 Calculations:
   expected_quantity = 2 × 500 gm = 1000 gm = 1 kg (normalized)
   vendor_rate = 580 / 1 kg = 580 per kg
-  actual_cost = (580 × 1 kg) / 2 = 290
+  vendor_cost = 580 × 1 kg = 580
+  gst_amount = (580 × 0) / 100 = 0
+  actual_cost = 580 + 0 = 580
 
 Example 3: Packaging extraction
 Batch item:
@@ -305,13 +315,16 @@ Invoice item:
   unit: "pcs"
   unit_price: 21
   total_price: 420
+  gst_rate: 10
 
 Calculations:
   Packaging: 20 Ltr per bottle
   expected_quantity = 2 × 10 × 20 ltr = 400 ltr (normalized)
   vendor_quantity = 20 pcs × 20 ltr = 400 ltr (normalized)
   vendor_rate = 420 / 400 ltr = 1.05 per ltr
-  actual_cost = (1.05 × 400 ltr) / 2 = 210
+  vendor_cost = 1.05 × 400 ltr = 420
+  gst_amount = (420 × 10) / 100 = 42
+  actual_cost = 420 + 42 = 462
 
 
 --------------------------------------------------------
@@ -322,10 +335,9 @@ Start with the base confidence determined from NAME MATCH quality.
 
 STEP 2 — APPLY DEDUCTIONS (in this order)
 A) QUANTITY MATCH (MANDATORY NORMALIZED COMPARISON)
+
 CRITICAL RULE — QUANTITY COMPARISON:
-
 Quantity comparison MUST ONLY use:
-
 - expected_quantity (normalized value from Section 1)
 - vendor_quantity (normalized value from Section 1)
 
@@ -345,7 +357,6 @@ If normalized expected_quantity equals normalized vendor_quantity,
 you MUST classify it as:
 
 "Exact match"
-
 and apply 0 deduction.
 
 C) DATA QUALITY
@@ -367,6 +378,7 @@ FLOOR: Confidence score cannot go below 0
 
 CONFIDENCE SUMMARY TEMPLATE:
 "[Name match quality] | [Unit match status]| [Quantity match status] | [Any special handling] | [Data quality notes]"
+"[Name match summary] | [Unit match summary] | [Quantity match summary] | [Special handling if any] | [Data quality notes]"
 
 
 --------------------------------------------------------
@@ -381,14 +393,18 @@ Return a JSON ARRAY with this EXACT schema:
       "product_name": string,
       "order_item_quantity": number,
       "product_quantity": number,
-      "product_unit": string,        
+      "product_unit": string
     },
     "vendor_item": {
       "product_name": string | null,
       "quantity": number | null,
       "unit": "kg" | "ltr" | "pcs" | null,
       "rate": number | null,
-      "total_price": number | null,      
+      "total_price": number | null,
+      "gst": {
+        "rate": number | null,
+        "amount": number | null
+      },
     },
     "actual_cost":number,
     "match_status": "matched" | "missing" | "incorrect_match",

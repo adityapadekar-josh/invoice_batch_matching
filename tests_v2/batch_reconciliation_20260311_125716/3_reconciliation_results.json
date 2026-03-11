@@ -1,0 +1,26 @@
+[
+  {
+    "batch_item": {
+      "id": 37213,
+      "product_name": "Cooking Oil",
+      "order_item_quantity": 10,
+      "product_quantity": 1,
+      "product_unit": "Ltr"
+    },
+    "vendor_item": {
+      "product_name": "Gold Winner Ref Sf Oil 1ltr",
+      "quantity": 10,
+      "unit": "ltr",
+      "rate": 165,
+      "total_price": 1650,
+      "gst": {
+        "rate": 5,
+        "amount": 83
+      }
+    },
+    "actual_cost": 1733,
+    "match_status": "matched",
+    "confidence_score": 97,
+    "confidence_summary": "Core product match (cooking oil ~ refined oil) | Unit matched after packaging normalization (10 pcs × 1 ltr = 10 ltr) | Exact match (expected 10 ltr vs vendor 10 ltr) | Extracted 1ltr pack size from invoice name | Clean invoice data"
+  }
+]

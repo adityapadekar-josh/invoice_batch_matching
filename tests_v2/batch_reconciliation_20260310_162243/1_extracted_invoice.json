@@ -1,0 +1,469 @@
+{
+  "vendor_name": "Udarvis Technologies Opc Private Limited",
+  "invoice_number": "2024-25/3007",
+  "invoice_date": "2025-04-10",
+  "due_date": "2025-05-10",
+  "line_items": [
+    {
+      "product_name": "Bansi Rava",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 55,
+      "total_price": 275,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Bay leaf",
+      "quantity": 0.1,
+      "unit": "kg",
+      "unit_price": 150,
+      "total_price": 15,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Bengal Gram",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 175,
+      "total_price": 700,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Black Eye Chana",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 140,
+      "total_price": 560,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Brown Bean",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 180,
+      "total_price": 720,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Chana dal",
+      "quantity": 6,
+      "unit": "kg",
+      "unit_price": 125,
+      "total_price": 750,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Chiroti Rava",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 51,
+      "total_price": 255,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Clove",
+      "quantity": 0.3,
+      "unit": "kg",
+      "unit_price": 1070,
+      "total_price": 321,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Coconut Oil",
+      "quantity": 1,
+      "unit": "ltr",
+      "unit_price": 237,
+      "total_price": 237,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Coffee Powder",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 400,
+      "total_price": 400,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Sunpure oil",
+      "quantity": 30,
+      "unit": "ltr",
+      "unit_price": 165,
+      "total_price": 4950,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Dosa rice",
+      "quantity": 20,
+      "unit": "kg",
+      "unit_price": 45,
+      "total_price": 900,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Elaichi",
+      "quantity": 0.2,
+      "unit": "kg",
+      "unit_price": 3600,
+      "total_price": 720,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Poppy Seeds",
+      "quantity": 0.1,
+      "unit": "kg",
+      "unit_price": 1200,
+      "total_price": 120,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Green Cassia",
+      "quantity": 0.2,
+      "unit": "kg",
+      "unit_price": 320,
+      "total_price": 64,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Idly Rice",
+      "quantity": 20,
+      "unit": "kg",
+      "unit_price": 53,
+      "total_price": 1060,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Idly Rava",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 55,
+      "total_price": 275,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Jaggery",
+      "quantity": 20,
+      "unit": "kg",
+      "unit_price": 68,
+      "total_price": 1360,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Jeera",
+      "quantity": 0.4,
+      "unit": "kg",
+      "unit_price": 405,
+      "total_price": 162,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Kabuli chana",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 181,
+      "total_price": 724,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Methi",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 132,
+      "total_price": 132,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Moong dal",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 136,
+      "total_price": 544,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Mustard",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 100,
+      "total_price": 100,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Mysore Dal",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 105,
+      "total_price": 420,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Papad",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 30,
+      "total_price": 300,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Pepper",
+      "quantity": 0.4,
+      "unit": "kg",
+      "unit_price": 830,
+      "total_price": 332,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Pickle",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 160,
+      "total_price": 160,
+      "gst_rate": 12
+    },
+    {
+      "product_name": "Poha",
+      "quantity": 20,
+      "unit": "kg",
+      "unit_price": 68,
+      "total_price": 1360,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Puffed Rice",
+      "quantity": 12,
+      "unit": "kg",
+      "unit_price": 70,
+      "total_price": 840,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Ghee",
+      "quantity": 1,
+      "unit": "ltr",
+      "unit_price": 600,
+      "total_price": 600,
+      "gst_rate": 12
+    },
+    {
+      "product_name": "Rice",
+      "quantity": 156,
+      "unit": "kg",
+      "unit_price": 68,
+      "total_price": 10608,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Shyavige",
+      "quantity": 2,
+      "unit": "kg",
+      "unit_price": 96,
+      "total_price": 192,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Salt",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 29,
+      "total_price": 290,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Sugar",
+      "quantity": 20,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 960,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Sooji",
+      "quantity": 5,
+      "unit": "kg",
+      "unit_price": 54,
+      "total_price": 270,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Tamarind",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 158,
+      "total_price": 158,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Till",
+      "quantity": 0.5,
+      "unit": "kg",
+      "unit_price": 249,
+      "total_price": 124.5,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Til oil - Deepam oil",
+      "quantity": 1,
+      "unit": "ltr",
+      "unit_price": 200,
+      "total_price": 200,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Toor dal",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 170,
+      "total_price": 1700,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Urad dal",
+      "quantity": 4,
+      "unit": "kg",
+      "unit_price": 158,
+      "total_price": 632,
+      "gst_rate": 0
+    },
+    {
+      "product_name": "Soap",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 32,
+      "total_price": 320,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Tooth Paste",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 60,
+      "total_price": 600,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Comfort",
+      "quantity": 2,
+      "unit": "ltr",
+      "unit_price": 198,
+      "total_price": 396,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Detergent Powder",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 64,
+      "total_price": 640,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Dettol 500ML",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 198,
+      "total_price": 396,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Domex",
+      "quantity": 2,
+      "unit": "ltr",
+      "unit_price": 96,
+      "total_price": 192,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Harpic",
+      "quantity": 2,
+      "unit": "ltr",
+      "unit_price": 199,
+      "total_price": 398,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Lizol",
+      "quantity": 2,
+      "unit": "ltr",
+      "unit_price": 199,
+      "total_price": 398,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Noodles",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 13.3,
+      "total_price": 266,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Milk Powder 500G",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 223,
+      "total_price": 446,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Phenyle 5LTR",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 295,
+      "total_price": 590,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Sabeena Powder",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 29,
+      "total_price": 290,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Shampoo Sachet",
+      "quantity": 200,
+      "unit": "pcs",
+      "unit_price": 0.82,
+      "total_price": 164,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Tea Powder",
+      "quantity": 1,
+      "unit": "kg",
+      "unit_price": 304,
+      "total_price": 304,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Tooth Brush",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 17,
+      "total_price": 170,
+      "gst_rate": 12
+    },
+    {
+      "product_name": "Vim gel",
+      "quantity": 2,
+      "unit": "ltr",
+      "unit_price": 168,
+      "total_price": 336,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Detergent Liquid",
+      "quantity": 4,
+      "unit": "ltr",
+      "unit_price": 168,
+      "total_price": 672,
+      "gst_rate": 18
+    }
+  ],
+  "subtotal": 41068.5,
+  "gst_amount": 1584.44,
+  "total_amount": 42652.94,
+  "payment_terms": "Net 30",
+  "notes": "Thanks for your business. I/We hereby declare and certify that the food/foods mentioned in the invoice are warranted to be of the nature and quality which they purport to be."
+}

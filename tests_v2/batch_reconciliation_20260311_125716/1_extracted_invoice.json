@@ -1,0 +1,101 @@
+{
+  "vendor_name": "GAYATHRI ASSOCIATES",
+  "invoice_number": "11037GA25/26",
+  "invoice_date": "2025-11-12",
+  "due_date": null,
+  "line_items": [
+    {
+      "product_name": "Isha Bullet Rice 26kg",
+      "quantity": 78,
+      "unit": "kg",
+      "unit_price": 58,
+      "total_price": 4524,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Plastic Broom",
+      "quantity": 4,
+      "unit": "pcs",
+      "unit_price": 160,
+      "total_price": 640,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Pril Liq Dishwash 425ml",
+      "quantity": 2,
+      "unit": "pcs",
+      "unit_price": 98.31,
+      "total_price": 190.72,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "Gold Winner Ref Sf Oil 1ltr",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 165,
+      "total_price": 1650,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "IT Thour Dhal 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 135,
+      "total_price": 1350,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Urid Dhal 1kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 135,
+      "total_price": 1350,
+      "gst_rate": null
+    },
+    {
+      "product_name": "IT Ragi Flour 5kg",
+      "quantity": 20,
+      "unit": "kg",
+      "unit_price": 55,
+      "total_price": 1100,
+      "gst_rate": null
+    },
+    {
+      "product_name": "Sugar 5kg",
+      "quantity": 10,
+      "unit": "kg",
+      "unit_price": 44,
+      "total_price": 440,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Rin Bar 10/-",
+      "quantity": 10,
+      "unit": "pcs",
+      "unit_price": 9.52,
+      "total_price": 92.34,
+      "gst_rate": 5
+    },
+    {
+      "product_name": "Exo Bar 10/-",
+      "quantity": 20,
+      "unit": "pcs",
+      "unit_price": 9.52,
+      "total_price": 184.69,
+      "gst_rate": 18
+    },
+    {
+      "product_name": "IT Idli Rice 1kg",
+      "quantity": 20,
+      "unit": "kg",
+      "unit_price": 48,
+      "total_price": 960,
+      "gst_rate": null
+    }
+  ],
+  "subtotal": 12481.75,
+  "gst_amount": 208.69,
+  "total_amount": 12690,
+  "payment_terms": null,
+  "notes": "IGST 208.69; Round Off (-)0.44; Dispatched through ARUN/KARAN; Vehicle No. KA03AG2158; Delivery note: grace foundation"
+}
